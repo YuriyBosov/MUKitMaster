@@ -8,30 +8,38 @@
 
 #import "MUAppDelegate.h"
 
-#import "MUViewController.h"
+#import "MURootControllerIPhone.h"
+#import "MURootControllerIPad.h"
 
 @implementation MUAppDelegate
 
 @synthesize window = _window;
-@synthesize viewController = _viewController;
 
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
+    [navigationController release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    UIViewController *viewController = nil;
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[[MUViewController alloc] initWithNibName:@"MUViewController_iPhone" bundle:nil] autorelease];
-    } else {
-        self.viewController = [[[MUViewController alloc] initWithNibName:@"MUViewController_iPad" bundle:nil] autorelease];
-    }
-    self.window.rootViewController = self.viewController;
+    
+//    // Override point for customization after application launch.
+//    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) 
+//    {
+//        viewController = [[[MURootControllerIPad alloc] initWithNibName:@"MURootControllerIPad" bundle:nil] autorelease];
+//    } else {
+//        viewController = [[[MURootControllerIPhone alloc] initWithNibName:@"MURootControllerIPhone" bundle:nil] autorelease];
+//    }
+    viewController = [[[MURootControllerIPhone alloc] initWithNibName:@"MURootControllerIPhone" bundle:nil] autorelease];
+    navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }

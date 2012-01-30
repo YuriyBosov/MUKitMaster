@@ -8,12 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@class MUViewController;
-
 @interface MUAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    UINavigationController *navigationController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) MUViewController *viewController;
 
 @end
