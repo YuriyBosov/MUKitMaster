@@ -17,6 +17,7 @@
 @interface MUKeyboardAvoidingTableController ()
 
 - (MUTextField *)createTextField;
+- (UITableViewCell *)createTableViewCell;
 - (void)validationAllInputValue;
 
 @end
@@ -49,7 +50,7 @@
 //==============================================================================
 - (void)dealloc 
 {
-    [textFieldsForCell release];
+    [tableViewCells release];
     [validationGroup release];
     [tableView release];
     [tf_01 release];
@@ -72,31 +73,62 @@
     
     NSMutableArray *sectionFirst = [NSMutableArray array];
     NSMutableArray *sectionSecond = [NSMutableArray array];
-    textFieldsForCell = [[NSMutableArray alloc] initWithObjects:sectionFirst, sectionSecond, nil];
+    tableViewCells = [[NSMutableArray alloc] initWithObjects:sectionFirst, sectionSecond, nil];
+    
+    // create cells and textfields
+    UITableViewCell *cell = nil;
  
     tf_01 = [[self createTextField] retain];
-    [sectionFirst addObject:tf_01];
+    cell = [self createTableViewCell];
+    [cell.contentView addSubview:tf_01];
+    [sectionFirst addObject:cell];
+    
     tf_02 = [[self createTextField] retain];
-    [sectionFirst addObject:tf_02];
+    cell = [self createTableViewCell];
+    [cell.contentView addSubview:tf_02];
+    [sectionFirst addObject:cell];
+    
     tf_03 = [[self createTextField] retain];
-    [sectionFirst addObject:tf_03];
+    cell = [self createTableViewCell];
+    [cell.contentView addSubview:tf_03];
+    [sectionFirst addObject:cell];
+    
     tf_04 = [[self createTextField] retain];
-    [sectionFirst addObject:tf_04];
+    cell = [self createTableViewCell];
+    [cell.contentView addSubview:tf_04];
+    [sectionFirst addObject:cell];
+    
     tf_05 = [[self createTextField] retain];
-    [sectionFirst addObject:tf_05];
+    cell = [self createTableViewCell];
+    [cell.contentView addSubview:tf_05];
+    [sectionFirst addObject:cell];
     
     tf_06 = [[self createTextField] retain];    
-    [sectionSecond addObject:tf_06];
-    tf_07 = [[self createTextField] retain];
-    [sectionSecond addObject:tf_07];
-    tf_08 = [[self createTextField] retain];
-    [sectionSecond addObject:tf_08];
-    tf_09 = [[self createTextField] retain];
-    [sectionSecond addObject:tf_09];
-    tf_10 = [[self createTextField] retain];
-    [sectionSecond addObject:tf_10];
-
+    cell = [self createTableViewCell];
+    [cell.contentView addSubview:tf_06];
+    [sectionSecond addObject:cell];
     
+    tf_07 = [[self createTextField] retain];
+    cell = [self createTableViewCell];
+    [cell.contentView addSubview:tf_07];
+    [sectionSecond addObject:cell];
+    
+    tf_08 = [[self createTextField] retain];
+    cell = [self createTableViewCell];
+    [cell.contentView addSubview:tf_08];
+    [sectionSecond addObject:cell];
+    
+    tf_09 = [[self createTextField] retain];
+    cell = [self createTableViewCell];
+    [cell.contentView addSubview:tf_09];
+    [sectionSecond addObject:cell];
+    
+    tf_10 = [[self createTextField] retain];
+    cell = [self createTableViewCell];
+    [cell.contentView addSubview:tf_10];
+    [sectionSecond addObject:cell];
+
+    // create vaidators
     MUValidator *validator = [[[MUValidatorNotEmpty alloc] init] autorelease];
     validator.errorMessage = @"TextField not Empty";
     tf_01.placeholder = @"Not Empty";
@@ -170,8 +202,8 @@
     [validationGroup release];
     validationGroup = nil;
 
-    [textFieldsForCell release];
-    textFieldsForCell = nil;
+    [tableViewCells release];
+    tableViewCells = nil;
     
     [super viewDidUnload];
 }
@@ -192,6 +224,15 @@
     textField.delegate = self;
     textField.tag = tag_text_field;
     return textField;
+}
+
+//==============================================================================
+- (UITableViewCell *)createTableViewCell
+{
+    UITableViewCell *cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"] autorelease];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.autoresizesSubviews = YES;
+    return cell;
 }
 
 #pragma mark - Button Action
@@ -222,40 +263,19 @@
 //==============================================================================
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return [textFieldsForCell count];
+    return [tableViewCells count];
 }
 
 //==============================================================================
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [[textFieldsForCell objectAtIndex:section] count];
+    return [[tableViewCells objectAtIndex:section] count];
 }
 
 //==============================================================================
 -(UITableViewCell*)tableView:(UITableView *)aTableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *cellIdentifier = @"cell";
-    
-    UITableViewCell *cell = [aTableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    if (!cell) 
-    {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
-        cell.selectionStyle = UITableViewCellSelectionStyleNone;
-        cell.autoresizesSubviews = YES;
-    }
-    else
-    {
-        [[cell.contentView viewWithTag:tag_text_field] removeFromSuperview];
-    }
-    MUTextField *textField = [[textFieldsForCell objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
-    [cell.contentView addSubview: textField];
-    return cell;
-}
-
-//==============================================================================
-- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    //cell.accessoryView.frame = CGRectMake(0, 0, 290, 40);
+    return [[tableViewCells objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
 }
 
 #pragma mark - UITextFieldDelegate

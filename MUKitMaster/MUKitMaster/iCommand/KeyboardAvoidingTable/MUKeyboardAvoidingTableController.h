@@ -12,11 +12,10 @@
 @class MUValidationGroup;
 @class MUKeyboardAvoidingTableView;
 
-
 @interface MUKeyboardAvoidingTableController : UIViewController <UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate>
 {
     MUValidationGroup *validationGroup;
-    NSMutableArray *textFieldsForCell;
+    NSMutableArray *tableViewCells;
 }
 
 @property (retain, nonatomic) IBOutlet MUKeyboardAvoidingTableView *tableView;
