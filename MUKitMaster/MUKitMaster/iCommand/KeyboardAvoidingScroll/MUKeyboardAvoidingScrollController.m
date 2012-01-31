@@ -39,7 +39,7 @@
     self = [super initWithNibName:@"MUKeyboardAvoidingScrollController" bundle:nil];
     if (self) 
     {
-        // Custom initialization
+        self.title = @"ScrollView";
     }
     return self;
 }
