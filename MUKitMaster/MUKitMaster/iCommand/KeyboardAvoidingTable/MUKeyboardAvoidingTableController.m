@@ -18,13 +18,11 @@
 
 - (MUTextField *)createTextField;
 - (UITableViewCell *)createTableViewCell;
-- (void)validationAllInputValue;
 
 @end
 
 @implementation MUKeyboardAvoidingTableController
 
-@synthesize tableView;
 @synthesize tf_01;
 @synthesize tf_02;
 @synthesize tf_03;
@@ -69,8 +67,6 @@
 //==============================================================================
 - (void)viewDidLoad
 {
-    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Validation" style:UIBarButtonItemStyleDone target:self action:@selector(validationAllInputValue)] autorelease];    
-    
     NSMutableArray *sectionFirst = [NSMutableArray array];
     NSMutableArray *sectionSecond = [NSMutableArray array];
     tableViewCells = [[NSMutableArray alloc] initWithObjects:sectionFirst, sectionSecond, nil];
@@ -179,7 +175,7 @@
     tf_10.placeholder = @"Enter Words";
     tf_10.validator = validator;
     
-    [tableView addObjectsForKeyboard:[NSArray arrayWithObjects:tf_01, tf_02, tf_03, tf_04, tf_05, tf_06, tf_07, tf_08, tf_09, tf_10, nil]];
+    [((MUKeyboardAvoidingTableView*)tableView) addObjectsForKeyboard:[NSArray arrayWithObjects:tf_01, tf_02, tf_03, tf_04, tf_05, tf_06, tf_07, tf_08, tf_09, tf_10, nil]];
     validationGroup = [[MUValidationGroup alloc] initWithTextFields:[NSArray arrayWithObjects:tf_01, tf_02, tf_03, tf_04, tf_05, tf_06, tf_07, tf_08, tf_09, tf_10, nil]];
     validationGroup.invalidIndicatorImage = [UIImage imageNamed:@"warning_icon"];
     
@@ -189,7 +185,6 @@
 //==============================================================================
 - (void)viewDidUnload
 {
-    [self setTableView:nil];
     [self setTf_01:nil];
     [self setTf_02:nil];
     [self setTf_03:nil];
@@ -212,6 +207,13 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return YES;
+}
+
+#pragma mark - Navigation Button
+//==============================================================================
+- (UIBarButtonItem*)createRightNavButton
+{
+    return [[[UIBarButtonItem alloc] initWithTitle:@"Validation" style:UIBarButtonItemStyleDone target:nil action:nil] autorelease];
 }
 
 #pragma mark - Private Method
@@ -237,9 +239,9 @@
 
 #pragma mark - Button Action
 //==============================================================================
-- (void)validationAllInputValue
+- (void)rightNavButtonPressed:(id)aSender
 {
-    [tableView hideKeyBoard];
+    [((MUKeyboardAvoidingTableView*)tableView) hideKeyBoard];
     
     NSString *alertTitle = nil;
     NSString *alertText = nil;
@@ -256,7 +258,7 @@
         alertText = @"Validation Success";
     }
     
-    [[[[UIAlertView alloc] initWithTitle:alertTitle message:alertText delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] autorelease] show];
+    [self showAlertViewWithTitle:alertTitle message:alertText delegate:nil cancelButtonTitle:@"OK" otherButtonTitle:nil];
 }
 
 #pragma mark - UITableViewDataSource
@@ -282,13 +284,13 @@
 //==============================================================================
 - (void)textFieldDidBeginEditing:(UITextField *)textField
 {
-    [tableView adjustOffset];
+    [((MUKeyboardAvoidingTableView*)tableView) adjustOffset];
 }
 
 //==============================================================================
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    [tableView responderShouldReturn:textField];
+    [((MUKeyboardAvoidingTableView*)tableView) responderShouldReturn:textField];
     return YES;
 }
 

@@ -12,15 +12,8 @@
 #import "MUValidator.h"
 #import "MUValidationGroup.h"
 
-@interface MUKeyboardAvoidingScrollController ()
-
-- (void)validationAllInputValue;
-
-@end
-
 @implementation MUKeyboardAvoidingScrollController
 
-@synthesize scrollView;
 @synthesize tf_01;
 @synthesize tf_02;
 @synthesize tf_03;
@@ -55,7 +48,7 @@
     [tf_06 release];
     [tf_07 release];
     [tf_08 release];
-    [scrollView release];
+//    [scrollView release];
     [validationGroup release];
     [tf_09 release];
     [tf_10 release];
@@ -66,8 +59,6 @@
 //==============================================================================
 - (void)viewDidLoad
 {    
-    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Validation" style:UIBarButtonItemStyleDone target:self action:@selector(validationAllInputValue)] autorelease];    
-    
     MUValidator *validator = [[[MUValidatorNotEmpty alloc] init] autorelease];
     validator.errorMessage = @"TextField not Empty";
     tf_01.placeholder = @"Not Empty";
@@ -118,7 +109,7 @@
     tf_10.placeholder = @"Enter Words";
     tf_10.validator = validator;
     
-    [scrollView addObjectsForKeyboard:[NSArray arrayWithObjects:tf_01, tf_02, tf_03, tf_04, tf_05, tf_06, tf_07, tf_08, tf_09, tf_10, nil]];
+    [((MUKeyboardAvoidingScrollView*)scrollView) addObjectsForKeyboard:[NSArray arrayWithObjects:tf_01, tf_02, tf_03, tf_04, tf_05, tf_06, tf_07, tf_08, tf_09, tf_10, nil]];
     validationGroup = [[MUValidationGroup alloc] initWithTextFields:[NSArray arrayWithObjects:tf_01, tf_02, tf_03, tf_04, tf_05, tf_06, tf_07, tf_08, tf_09, tf_10, nil]];
     validationGroup.invalidIndicatorImage = [UIImage imageNamed:@"warning_icon"];
     [super viewDidLoad];
@@ -135,7 +126,6 @@
     [self setTf_06:nil];
     [self setTf_07:nil];
     [self setTf_08:nil];
-    [self setScrollView:nil];
     
     [validationGroup release];
     validationGroup = nil;
@@ -151,11 +141,18 @@
     return YES;
 }
 
+#pragma mark - Navigation Button
+//==============================================================================
+- (UIBarButtonItem*)createRightNavButton
+{
+    return [[[UIBarButtonItem alloc] initWithTitle:@"Validation" style:UIBarButtonItemStyleDone target:nil action:nil] autorelease];
+}
+
 #pragma mark - Button Action
 //==============================================================================
-- (void)validationAllInputValue
+- (void)rightNavButtonPressed:(id)aSender
 {
-    [scrollView hideKeyBoard];
+    [((MUKeyboardAvoidingScrollView*)scrollView) hideKeyBoard];
     
     NSString *alertTitle = nil;
     NSString *alertText = nil;
@@ -172,20 +169,20 @@
         alertText = @"Validation Success";
     }
     
-    [[[[UIAlertView alloc] initWithTitle:alertTitle message:alertText delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil] autorelease] show];
+    [self showAlertViewWithTitle:alertTitle message:alertText delegate:nil cancelButtonTitle:@"OK" otherButtonTitle:nil];
 }
 
 #pragma mark - UITextFieldDelegate
 //==============================================================================
 - (void)textFieldDidBeginEditing:(UITextField *)textField
 {
-    [scrollView adjustOffset];
+    [((MUKeyboardAvoidingScrollView*)scrollView) adjustOffset];
 }
 
 //==============================================================================
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    [scrollView responderShouldReturn:textField];
+    [((MUKeyboardAvoidingScrollView*)scrollView) responderShouldReturn:textField];
     return YES;
 }
 

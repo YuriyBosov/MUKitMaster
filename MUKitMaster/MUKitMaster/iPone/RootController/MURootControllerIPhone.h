@@ -11,5 +11,6 @@
 
 - (IBAction)showKeyboardAvoidingScrollView:(id)sender;
 - (IBAction)showKeyboardAvoidingTableView:(id)sender;
+- (IBAction)showHalfCellTestController:(id)sender;
 
 @end

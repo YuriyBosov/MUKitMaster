@@ -6,19 +6,18 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MUBaseTableController.h"
 
 @class MUTextField;
 @class MUValidationGroup;
 @class MUKeyboardAvoidingTableView;
 
-@interface MUKeyboardAvoidingTableController : UIViewController <UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate>
+@interface MUKeyboardAvoidingTableController : MUBaseTableController <UITextFieldDelegate>
 {
     MUValidationGroup *validationGroup;
     NSMutableArray *tableViewCells;
 }
 
-@property (retain, nonatomic) IBOutlet MUKeyboardAvoidingTableView *tableView;
 @property (retain, nonatomic) IBOutlet MUTextField *tf_01;
 @property (retain, nonatomic) IBOutlet MUTextField *tf_02;
 @property (retain, nonatomic) IBOutlet MUTextField *tf_03;

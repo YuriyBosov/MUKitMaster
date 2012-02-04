@@ -6,18 +6,16 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MUBaseScrollerController.h"
 
 @class MUKeyboardAvoidingScrollView;
 @class MUTextField;
 @class MUValidationGroup;
 
-@interface MUKeyboardAvoidingScrollController : UIViewController <UITextFieldDelegate>
+@interface MUKeyboardAvoidingScrollController : MUBaseScrollerController <UITextFieldDelegate>
 {
     MUValidationGroup *validationGroup;
 }
-
-@property (retain, nonatomic) IBOutlet MUKeyboardAvoidingScrollView *scrollView;
 
 @property (retain, nonatomic) IBOutlet MUTextField *tf_01;
 @property (retain, nonatomic) IBOutlet MUTextField *tf_02;
