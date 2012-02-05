@@ -1,6 +1,6 @@
 //
 //  HalfCellTestController.m
-//  MUKitMaster
+//  MUKit
 //
 //  Created by Yuriy Bosov on 2/1/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
