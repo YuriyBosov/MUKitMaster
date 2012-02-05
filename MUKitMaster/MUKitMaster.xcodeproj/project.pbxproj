@@ -379,6 +379,10 @@
 		E624EB8714D6D19200F3A968 /* MUTableViewCell2Half */ = {
 			isa = PBXGroup;
 			children = (
+				E624EB9E14D6D19200F3A968 /* MUHalfCellView.h */,
+				E624EB9F14D6D19200F3A968 /* MUHalfCellView.m */,
+				E624EBA014D6D19200F3A968 /* MUTableViewCell2Half.h */,
+				E624EBA114D6D19200F3A968 /* MUTableViewCell2Half.m */,
 				E624EB8814D6D19200F3A968 /* MUCellLb1Img1.h */,
 				E624EB8914D6D19200F3A968 /* MUCellLb1Img1.m */,
 				E624EB8A14D6D19200F3A968 /* MUCellLb1Lb1.h */,
@@ -401,10 +405,6 @@
 				E624EB9B14D6D19200F3A968 /* MUCellLb3WithFullWidthLb1.m */,
 				E624EB9C14D6D19200F3A968 /* MUCellLbTextView.h */,
 				E624EB9D14D6D19200F3A968 /* MUCellLbTextView.m */,
-				E624EB9E14D6D19200F3A968 /* MUHalfCellView.h */,
-				E624EB9F14D6D19200F3A968 /* MUHalfCellView.m */,
-				E624EBA014D6D19200F3A968 /* MUTableViewCell2Half.h */,
-				E624EBA114D6D19200F3A968 /* MUTableViewCell2Half.m */,
 			);
 			path = MUTableViewCell2Half;
 			sourceTree = "<group>";
