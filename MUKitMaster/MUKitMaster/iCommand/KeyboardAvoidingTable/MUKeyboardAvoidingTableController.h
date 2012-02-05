@@ -11,11 +11,16 @@
 @class MUTextField;
 @class MUValidationGroup;
 @class MUKeyboardAvoidingTableView;
+@class MUCreditCardNumberFormatter;
+@class MUPhoneNumberFormatter;
 
 @interface MUKeyboardAvoidingTableController : MUBaseTableController <UITextFieldDelegate>
 {
     MUValidationGroup *validationGroup;
     NSMutableArray *tableViewCells;
+    
+    MUPhoneNumberFormatter *phoneNumberFormatter;
+    MUCreditCardNumberFormatter *creditCardNumberFormatter;
 }
 
 @property (retain, nonatomic) IBOutlet MUTextField *tf_01;
@@ -28,6 +33,8 @@
 @property (retain, nonatomic) IBOutlet MUTextField *tf_08;
 @property (retain, nonatomic) IBOutlet MUTextField *tf_09;
 @property (retain, nonatomic) IBOutlet MUTextField *tf_10;
+@property (retain, nonatomic) IBOutlet MUTextField *tf_11;
+@property (retain, nonatomic) IBOutlet MUTextField *tf_12;
 
 
 @end

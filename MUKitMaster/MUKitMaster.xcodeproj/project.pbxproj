@@ -81,6 +81,7 @@
 		E679758414D999270054A31C /* MUVeraetyCellsTableControllerReadonly.m in Sources */ = {isa = PBXBuildFile; fileRef = E679757E14D999270054A31C /* MUVeraetyCellsTableControllerReadonly.m */; };
 		E679758514D999270054A31C /* MUVeraetyCellsTableControllerWritable.m in Sources */ = {isa = PBXBuildFile; fileRef = E679758014D999270054A31C /* MUVeraetyCellsTableControllerWritable.m */; };
 		E6992C3714DD767D008AAF2D /* MUPhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E6992C3614DD767D008AAF2D /* MUPhoneNumberFormatter.m */; };
+		E6992C5014DE6420008AAF2D /* MUCreditCardNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E6992C4F14DE641F008AAF2D /* MUCreditCardNumberFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -219,8 +220,10 @@
 		E679757E14D999270054A31C /* MUVeraetyCellsTableControllerReadonly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUVeraetyCellsTableControllerReadonly.m; sourceTree = "<group>"; };
 		E679757F14D999270054A31C /* MUVeraetyCellsTableControllerWritable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUVeraetyCellsTableControllerWritable.h; sourceTree = "<group>"; };
 		E679758014D999270054A31C /* MUVeraetyCellsTableControllerWritable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUVeraetyCellsTableControllerWritable.m; sourceTree = "<group>"; };
-		E6992C3514DD767D008AAF2D /* MUPhoneNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; path = MUPhoneNumberFormatter.h; sourceTree = "<group>"; };
+		E6992C3514DD767D008AAF2D /* MUPhoneNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPhoneNumberFormatter.h; sourceTree = "<group>"; };
 		E6992C3614DD767D008AAF2D /* MUPhoneNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPhoneNumberFormatter.m; sourceTree = "<group>"; };
+		E6992C4E14DE641F008AAF2D /* MUCreditCardNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCreditCardNumberFormatter.h; sourceTree = "<group>"; };
+		E6992C4F14DE641F008AAF2D /* MUCreditCardNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCreditCardNumberFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -425,6 +428,8 @@
 				E624EBAF14D6D19200F3A968 /* MUWeakRef.m */,
 				E6992C3514DD767D008AAF2D /* MUPhoneNumberFormatter.h */,
 				E6992C3614DD767D008AAF2D /* MUPhoneNumberFormatter.m */,
+				E6992C4E14DE641F008AAF2D /* MUCreditCardNumberFormatter.h */,
+				E6992C4F14DE641F008AAF2D /* MUCreditCardNumberFormatter.m */,
 			);
 			path = MUCore;
 			sourceTree = "<group>";
@@ -729,6 +734,7 @@
 				E679758414D999270054A31C /* MUVeraetyCellsTableControllerReadonly.m in Sources */,
 				E679758514D999270054A31C /* MUVeraetyCellsTableControllerWritable.m in Sources */,
 				E6992C3714DD767D008AAF2D /* MUPhoneNumberFormatter.m in Sources */,
+				E6992C5014DE6420008AAF2D /* MUCreditCardNumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

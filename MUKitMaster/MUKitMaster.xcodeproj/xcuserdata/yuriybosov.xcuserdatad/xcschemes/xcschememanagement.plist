@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MUKitTools.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>E67380C714D6824600B35246</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6992C3E14DE6258008AAF2D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

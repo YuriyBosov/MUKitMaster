@@ -11,8 +11,11 @@
 #import "MUValidator.h"
 #import "MUValidationGroup.h"
 #import "MUKeyboardAvoidingTableView.h"
+#import "MUCreditCardNumberFormatter.h"
+#import "MUPhoneNumberFormatter.h"
 
-#define tag_text_field 100
+#define tag_card_number_text_field  100
+#define tag_phone_number_text_field 101
 
 @interface MUKeyboardAvoidingTableController ()
 
@@ -33,6 +36,8 @@
 @synthesize tf_08;
 @synthesize tf_09;
 @synthesize tf_10;
+@synthesize tf_11;
+@synthesize tf_12;
 
 //==============================================================================
 - (id)init
@@ -41,6 +46,8 @@
     if (self) 
     {
         self.title = @"TableView";
+        creditCardNumberFormatter = [MUCreditCardNumberFormatter new];
+        phoneNumberFormatter = [MUPhoneNumberFormatter new];
     }
     return self;
 }
@@ -48,6 +55,9 @@
 //==============================================================================
 - (void)dealloc 
 {
+    [creditCardNumberFormatter release];
+    [phoneNumberFormatter release];
+    
     [tableViewCells release];
     [validationGroup release];
     [tableView release];
@@ -59,6 +69,10 @@
     [tf_06 release];
     [tf_07 release];
     [tf_08 release];
+    [tf_09 release];
+    [tf_10 release];
+    [tf_11 release];
+    [tf_12 release];
     
     [super dealloc];
 }
@@ -69,7 +83,8 @@
 {
     NSMutableArray *sectionFirst = [NSMutableArray array];
     NSMutableArray *sectionSecond = [NSMutableArray array];
-    tableViewCells = [[NSMutableArray alloc] initWithObjects:sectionFirst, sectionSecond, nil];
+    NSMutableArray *sectionThit = [NSMutableArray array];
+    tableViewCells = [[NSMutableArray alloc] initWithObjects:sectionFirst, sectionSecond, sectionThit, nil];
     
     // create cells and textfields
     UITableViewCell *cell = nil;
@@ -123,6 +138,16 @@
     cell = [self createTableViewCell];
     [cell.contentView addSubview:tf_10];
     [sectionSecond addObject:cell];
+    
+    tf_11 = [[self createTextField] retain];
+    cell = [self createTableViewCell];
+    [cell.contentView addSubview:tf_11];
+    [sectionThit addObject:cell];
+    
+    tf_12 = [[self createTextField] retain];
+    cell = [self createTableViewCell];
+    [cell.contentView addSubview:tf_12];
+    [sectionThit addObject:cell];
 
     // create vaidators
     MUValidator *validator = [[[MUValidatorNotEmpty alloc] init] autorelease];
@@ -145,7 +170,8 @@
     tf_04.placeholder = @"Full Name";
     tf_04.validator = validator;
     
-    validator = [[[MUValidatorIntWithRange alloc] initWithRange:NSMakeRange(10, 5)] autorelease];
+//    validator = [[[MUValidatorIntWithRange alloc] initWithRange:NSMakeRange(10, 5)] autorelease];
+    validator = [[[MUValidatorFullName alloc] init] autorelease];
     validator.errorMessage = @"Incorrect Code";
     tf_05.placeholder = @"Enter Code (10~15 symbol)";
     tf_05.validator = validator;
@@ -175,8 +201,20 @@
     tf_10.placeholder = @"Enter Words";
     tf_10.validator = validator;
     
-    [((MUKeyboardAvoidingTableView*)tableView) addObjectsForKeyboard:[NSArray arrayWithObjects:tf_01, tf_02, tf_03, tf_04, tf_05, tf_06, tf_07, tf_08, tf_09, tf_10, nil]];
-    validationGroup = [[MUValidationGroup alloc] initWithTextFields:[NSArray arrayWithObjects:tf_01, tf_02, tf_03, tf_04, tf_05, tf_06, tf_07, tf_08, tf_09, tf_10, nil]];
+    validator = [[[MUValidatorIntWithRange alloc] initWithRange:NSMakeRange(16, 4)] autorelease];
+    validator.errorMessage = @"Incorrect Card Number!!!";
+    tf_11.placeholder = @"Enter Card Number";
+    tf_11.validator = validator;
+    tf_11.tag = tag_card_number_text_field;
+    
+    validator = [[[MUValidatorIntWithRange alloc] initWithRange:NSMakeRange(7, 4)] autorelease];
+    validator.errorMessage = @"Incorrect Phone Number!!!";
+    tf_12.placeholder = @"Enter Phone Number";
+    tf_12.validator = validator;
+    tf_12.tag = tag_phone_number_text_field;
+    
+    [((MUKeyboardAvoidingTableView*)tableView) addObjectsForKeyboard:[NSArray arrayWithObjects:tf_01, tf_02, tf_03, tf_04, tf_05, tf_06, tf_07, tf_08, tf_09, tf_10, tf_11, tf_12, nil]];
+    validationGroup = [[MUValidationGroup alloc] initWithTextFields:[NSArray arrayWithObjects:tf_01, tf_02, tf_03, tf_04, tf_05, tf_06, tf_07, tf_08, tf_09, tf_10, tf_11, tf_12, nil]];
     validationGroup.invalidIndicatorImage = [UIImage imageNamed:@"warning_icon"];
     
     [super viewDidLoad];
@@ -224,7 +262,6 @@
     textField.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     textField.autoresizesSubviews = YES;
     textField.delegate = self;
-    textField.tag = tag_text_field;
     return textField;
 }
 
@@ -292,6 +329,21 @@
 {
     [((MUKeyboardAvoidingTableView*)tableView) responderShouldReturn:textField];
     return YES;
+}
+
+//==============================================================================
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    BOOL result = YES;
+    if (textField.tag == tag_card_number_text_field)
+    {
+        result = [creditCardNumberFormatter cardFormatForTextField:textField shouldChangeCharactersInRange:range replacementString:string separatorString:@" "];
+    }
+    else if (textField.tag == tag_phone_number_text_field)
+    {
+        result = [phoneNumberFormatter phoneFormatForTextField:textField shouldChangeCharactersInRange:range replacementString:string withLocale:@"us"];
+    }
+    return result;
 }
 
 @end
