@@ -80,6 +80,7 @@
 		E679758314D999270054A31C /* MUBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E679757C14D999270054A31C /* MUBaseViewController.m */; };
 		E679758414D999270054A31C /* MUVeraetyCellsTableControllerReadonly.m in Sources */ = {isa = PBXBuildFile; fileRef = E679757E14D999270054A31C /* MUVeraetyCellsTableControllerReadonly.m */; };
 		E679758514D999270054A31C /* MUVeraetyCellsTableControllerWritable.m in Sources */ = {isa = PBXBuildFile; fileRef = E679758014D999270054A31C /* MUVeraetyCellsTableControllerWritable.m */; };
+		E6992C3714DD767D008AAF2D /* MUPhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E6992C3614DD767D008AAF2D /* MUPhoneNumberFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -218,6 +219,8 @@
 		E679757E14D999270054A31C /* MUVeraetyCellsTableControllerReadonly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUVeraetyCellsTableControllerReadonly.m; sourceTree = "<group>"; };
 		E679757F14D999270054A31C /* MUVeraetyCellsTableControllerWritable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUVeraetyCellsTableControllerWritable.h; sourceTree = "<group>"; };
 		E679758014D999270054A31C /* MUVeraetyCellsTableControllerWritable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUVeraetyCellsTableControllerWritable.m; sourceTree = "<group>"; };
+		E6992C3514DD767D008AAF2D /* MUPhoneNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; path = MUPhoneNumberFormatter.h; sourceTree = "<group>"; };
+		E6992C3614DD767D008AAF2D /* MUPhoneNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPhoneNumberFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -420,6 +423,8 @@
 				E624EBAD14D6D19200F3A968 /* MUValidator.m */,
 				E624EBAE14D6D19200F3A968 /* MUWeakRef.h */,
 				E624EBAF14D6D19200F3A968 /* MUWeakRef.m */,
+				E6992C3514DD767D008AAF2D /* MUPhoneNumberFormatter.h */,
+				E6992C3614DD767D008AAF2D /* MUPhoneNumberFormatter.m */,
 			);
 			path = MUCore;
 			sourceTree = "<group>";
@@ -723,6 +728,7 @@
 				E679758314D999270054A31C /* MUBaseViewController.m in Sources */,
 				E679758414D999270054A31C /* MUVeraetyCellsTableControllerReadonly.m in Sources */,
 				E679758514D999270054A31C /* MUVeraetyCellsTableControllerWritable.m in Sources */,
+				E6992C3714DD767D008AAF2D /* MUPhoneNumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -761,6 +767,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -781,6 +788,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
