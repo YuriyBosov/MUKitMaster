@@ -21,13 +21,6 @@
 		E624EBBD14D6D19200F3A968 /* MUAutoresizeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB6614D6D19200F3A968 /* MUAutoresizeButton.m */; };
 		E624EBBE14D6D19200F3A968 /* MUKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB6914D6D19200F3A968 /* MUKeyboardAvoidingScrollView.m */; };
 		E624EBBF14D6D19200F3A968 /* MUKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB6B14D6D19200F3A968 /* MUKeyboardAvoidingTableView.m */; };
-		E624EBC014D6D19200F3A968 /* MUPopupDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB6E14D6D19200F3A968 /* MUPopupDatePicker.m */; };
-		E624EBC114D6D19200F3A968 /* MUPopupDateTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB7014D6D19200F3A968 /* MUPopupDateTimePicker.m */; };
-		E624EBC214D6D19200F3A968 /* MUPopupHoursMinutesPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB7214D6D19200F3A968 /* MUPopupHoursMinutesPicker.m */; };
-		E624EBC314D6D19200F3A968 /* MUPopupPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB7414D6D19200F3A968 /* MUPopupPicker.m */; };
-		E624EBC414D6D19200F3A968 /* MUPopupSimplePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB7614D6D19200F3A968 /* MUPopupSimplePicker.m */; };
-		E624EBC514D6D19200F3A968 /* MUPopupTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB7814D6D19200F3A968 /* MUPopupTimePicker.m */; };
-		E624EBC614D6D19200F3A968 /* MUPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB7A14D6D19200F3A968 /* MUPopupViewController.m */; };
 		E624EBC714D6D19200F3A968 /* MUProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB7C14D6D19200F3A968 /* MUProgressView.m */; };
 		E624EBC814D6D19200F3A968 /* MUSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB7E14D6D19200F3A968 /* MUSearchBar.m */; };
 		E624EBC914D6D19200F3A968 /* MUSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB8014D6D19200F3A968 /* MUSegmentedControl.m */; };
@@ -109,20 +102,6 @@
 		E624EB6914D6D19200F3A968 /* MUKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		E624EB6A14D6D19200F3A968 /* MUKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MUKeyboardAvoidingTableView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		E624EB6B14D6D19200F3A968 /* MUKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MUKeyboardAvoidingTableView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		E624EB6D14D6D19200F3A968 /* MUPopupDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPopupDatePicker.h; sourceTree = "<group>"; };
-		E624EB6E14D6D19200F3A968 /* MUPopupDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPopupDatePicker.m; sourceTree = "<group>"; };
-		E624EB6F14D6D19200F3A968 /* MUPopupDateTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPopupDateTimePicker.h; sourceTree = "<group>"; };
-		E624EB7014D6D19200F3A968 /* MUPopupDateTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPopupDateTimePicker.m; sourceTree = "<group>"; };
-		E624EB7114D6D19200F3A968 /* MUPopupHoursMinutesPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPopupHoursMinutesPicker.h; sourceTree = "<group>"; };
-		E624EB7214D6D19200F3A968 /* MUPopupHoursMinutesPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPopupHoursMinutesPicker.m; sourceTree = "<group>"; };
-		E624EB7314D6D19200F3A968 /* MUPopupPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPopupPicker.h; sourceTree = "<group>"; };
-		E624EB7414D6D19200F3A968 /* MUPopupPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPopupPicker.m; sourceTree = "<group>"; };
-		E624EB7514D6D19200F3A968 /* MUPopupSimplePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPopupSimplePicker.h; sourceTree = "<group>"; };
-		E624EB7614D6D19200F3A968 /* MUPopupSimplePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPopupSimplePicker.m; sourceTree = "<group>"; };
-		E624EB7714D6D19200F3A968 /* MUPopupTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPopupTimePicker.h; sourceTree = "<group>"; };
-		E624EB7814D6D19200F3A968 /* MUPopupTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPopupTimePicker.m; sourceTree = "<group>"; };
-		E624EB7914D6D19200F3A968 /* MUPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPopupViewController.h; sourceTree = "<group>"; };
-		E624EB7A14D6D19200F3A968 /* MUPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPopupViewController.m; sourceTree = "<group>"; };
 		E624EB7B14D6D19200F3A968 /* MUProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUProgressView.h; sourceTree = "<group>"; };
 		E624EB7C14D6D19200F3A968 /* MUProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUProgressView.m; sourceTree = "<group>"; };
 		E624EB7D14D6D19200F3A968 /* MUSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSearchBar.h; sourceTree = "<group>"; };
@@ -307,7 +286,6 @@
 				E679757614D999260054A31C /* ViewControllers */,
 				E624EB5A14D6D19200F3A968 /* InputFields */,
 				E624EB6714D6D19200F3A968 /* MUKeyboardAvoiding */,
-				E624EB6C14D6D19200F3A968 /* MUPopupControllers */,
 				E624EB8714D6D19200F3A968 /* MUTableViewCell2Half */,
 				E624EB6314D6D19200F3A968 /* MUAlertWithTextField.h */,
 				E624EB6414D6D19200F3A968 /* MUAlertWithTextField.m */,
@@ -355,27 +333,6 @@
 				E624EB6B14D6D19200F3A968 /* MUKeyboardAvoidingTableView.m */,
 			);
 			path = MUKeyboardAvoiding;
-			sourceTree = "<group>";
-		};
-		E624EB6C14D6D19200F3A968 /* MUPopupControllers */ = {
-			isa = PBXGroup;
-			children = (
-				E624EB6D14D6D19200F3A968 /* MUPopupDatePicker.h */,
-				E624EB6E14D6D19200F3A968 /* MUPopupDatePicker.m */,
-				E624EB6F14D6D19200F3A968 /* MUPopupDateTimePicker.h */,
-				E624EB7014D6D19200F3A968 /* MUPopupDateTimePicker.m */,
-				E624EB7114D6D19200F3A968 /* MUPopupHoursMinutesPicker.h */,
-				E624EB7214D6D19200F3A968 /* MUPopupHoursMinutesPicker.m */,
-				E624EB7314D6D19200F3A968 /* MUPopupPicker.h */,
-				E624EB7414D6D19200F3A968 /* MUPopupPicker.m */,
-				E624EB7514D6D19200F3A968 /* MUPopupSimplePicker.h */,
-				E624EB7614D6D19200F3A968 /* MUPopupSimplePicker.m */,
-				E624EB7714D6D19200F3A968 /* MUPopupTimePicker.h */,
-				E624EB7814D6D19200F3A968 /* MUPopupTimePicker.m */,
-				E624EB7914D6D19200F3A968 /* MUPopupViewController.h */,
-				E624EB7A14D6D19200F3A968 /* MUPopupViewController.m */,
-			);
-			path = MUPopupControllers;
 			sourceTree = "<group>";
 		};
 		E624EB8714D6D19200F3A968 /* MUTableViewCell2Half */ = {
@@ -680,13 +637,6 @@
 				E624EBBD14D6D19200F3A968 /* MUAutoresizeButton.m in Sources */,
 				E624EBBE14D6D19200F3A968 /* MUKeyboardAvoidingScrollView.m in Sources */,
 				E624EBBF14D6D19200F3A968 /* MUKeyboardAvoidingTableView.m in Sources */,
-				E624EBC014D6D19200F3A968 /* MUPopupDatePicker.m in Sources */,
-				E624EBC114D6D19200F3A968 /* MUPopupDateTimePicker.m in Sources */,
-				E624EBC214D6D19200F3A968 /* MUPopupHoursMinutesPicker.m in Sources */,
-				E624EBC314D6D19200F3A968 /* MUPopupPicker.m in Sources */,
-				E624EBC414D6D19200F3A968 /* MUPopupSimplePicker.m in Sources */,
-				E624EBC514D6D19200F3A968 /* MUPopupTimePicker.m in Sources */,
-				E624EBC614D6D19200F3A968 /* MUPopupViewController.m in Sources */,
 				E624EBC714D6D19200F3A968 /* MUProgressView.m in Sources */,
 				E624EBC814D6D19200F3A968 /* MUSearchBar.m in Sources */,
 				E624EBC914D6D19200F3A968 /* MUSegmentedControl.m in Sources */,
