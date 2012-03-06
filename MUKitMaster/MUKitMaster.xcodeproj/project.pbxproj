@@ -296,7 +296,6 @@
 				E624EB5914D6D19200F3A968 /* MUControls */,
 				E624EBA414D6D19200F3A968 /* MUCore */,
 				E624EBB014D6D19200F3A968 /* MUExtentions */,
-				E624EBB514D6D19200F3A968 /* MUGateway */,
 			);
 			name = MUKit;
 			path = ../MUKit;
@@ -443,13 +442,6 @@
 				E624EBB414D6D19200F3A968 /* NSString+Base64Encoding.m */,
 			);
 			path = MUExtentions;
-			sourceTree = "<group>";
-		};
-		E624EBB514D6D19200F3A968 /* MUGateway */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MUGateway;
 			sourceTree = "<group>";
 		};
 		E624EBE314D6D2B200F3A968 /* ThirdParty */ = {

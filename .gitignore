@@ -1,4 +1,5 @@
 .DS_Store
-MUKitMaster/MUKitMaster.xcodeproj/xcuserdata/
-MUKitMaster/MUKitMaster.xcodeproj/project.xcworkspace/xcuserdata/yuriybosov.xcuserdatad/
-MUKitMaster/MUKitMaster.xcodeproj/project.xcworkspace/xcuserdata/yuriybosov.xcuserdatad/UserInterfaceState.xcuserstate
+*.xcodeproj/xcuserdata/*
+*.xcodeproj/project.xcworkspace/xcuserdata/*
+MUKitMaster/MUKitMaster.xcodeproj/project.xcworkspace/xcuserdata/*
+MUKitMaster/MUKitMaster.xcodeproj/xcuserdata/yuriybosov.xcuserdatad/xcdebugger/*
