@@ -171,7 +171,7 @@
     tf_04.validator = validator;
     
 //    validator = [[[MUValidatorIntWithRange alloc] initWithRange:NSMakeRange(10, 5)] autorelease];
-    validator = [[[MUValidatorFullName alloc] init] autorelease];
+    validator = [[[MUValidatorStringWithRange alloc] init] autorelease];
     validator.errorMessage = @"Incorrect Code";
     tf_05.placeholder = @"Enter Code (10~15 symbol)";
     tf_05.validator = validator;
@@ -196,9 +196,9 @@
     tf_09.placeholder = @"Enter Zipc Code";
     tf_09.validator = validator;
     
-    validator = [[[MUValidatorWords alloc] init] autorelease];
-    validator.errorMessage = @"Words!!!";
-    tf_10.placeholder = @"Enter Words";
+    validator = [[[MUValidatorStringWithRange alloc] initWithRange:NSMakeRange(5,5)] autorelease];
+    validator.errorMessage = @"Word len 5~10";
+    tf_10.placeholder = @"Enter Word";
     tf_10.validator = validator;
     
     validator = [[[MUValidatorIntWithRange alloc] initWithRange:NSMakeRange(16, 4)] autorelease];
@@ -207,7 +207,7 @@
     tf_11.validator = validator;
     tf_11.tag = tag_card_number_text_field;
     
-    validator = [[[MUValidatorIntWithRange alloc] initWithRange:NSMakeRange(7, 4)] autorelease];
+    validator = [[[MUValidatorCountNumberInTextWithRange alloc] initWithRange:NSMakeRange(7, 4)] autorelease];
     validator.errorMessage = @"Incorrect Phone Number!!!";
     tf_12.placeholder = @"Enter Phone Number";
     tf_12.validator = validator;
