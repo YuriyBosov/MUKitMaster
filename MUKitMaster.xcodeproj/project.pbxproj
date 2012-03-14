@@ -7,8 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0234C12D1510BF8000284D25 /* MUImageViewTapable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C12C1510BF8000284D25 /* MUImageViewTapable.m */; };
-		0234C1311510C25E00284D25 /* MUTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C1301510C25E00284D25 /* MUTargetAction.m */; };
+		0234C29F1510F33B00284D25 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0234C2131510F33B00284D25 /* .gitignore */; };
+		0234C2A01510F33B00284D25 /* MUTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2171510F33B00284D25 /* MUTextField.m */; };
+		0234C2A11510F33B00284D25 /* MUTextFieldPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2191510F33B00284D25 /* MUTextFieldPadding.m */; };
+		0234C2A21510F33B00284D25 /* MUTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C21B1510F33B00284D25 /* MUTextView.m */; };
+		0234C2A31510F33B00284D25 /* MUTextViewAutosize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C21D1510F33B00284D25 /* MUTextViewAutosize.m */; };
+		0234C2A41510F33B00284D25 /* MUAlertWithTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C21F1510F33B00284D25 /* MUAlertWithTextField.m */; };
+		0234C2A51510F33B00284D25 /* MUAutoresizeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2211510F33B00284D25 /* MUAutoresizeButton.m */; };
+		0234C2A61510F33B00284D25 /* MUImageViewTapable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2231510F33B00284D25 /* MUImageViewTapable.m */; };
+		0234C2A71510F33B00284D25 /* MUKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2261510F33B00284D25 /* MUKeyboardAvoidingScrollView.m */; };
+		0234C2A81510F33B00284D25 /* MUKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2281510F33B00284D25 /* MUKeyboardAvoidingTableView.m */; };
+		0234C2A91510F33B00284D25 /* MUProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C22A1510F33B00284D25 /* MUProgressView.m */; };
+		0234C2AA1510F33B00284D25 /* MUSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C22C1510F33B00284D25 /* MUSearchBar.m */; };
+		0234C2AB1510F33B00284D25 /* MUSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C22E1510F33B00284D25 /* MUSegmentedControl.m */; };
+		0234C2AC1510F33B00284D25 /* MUSpinneredView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2301510F33B00284D25 /* MUSpinneredView.m */; };
+		0234C2AD1510F33B00284D25 /* MUStackedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2321510F33B00284D25 /* MUStackedView.m */; };
+		0234C2AE1510F33B00284D25 /* MUTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2341510F33B00284D25 /* MUTabBar.m */; };
+		0234C2AF1510F33B00284D25 /* MUCellLb1Img1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2371510F33B00284D25 /* MUCellLb1Img1.m */; };
+		0234C2B01510F33B00284D25 /* MUCellLb1Lb1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2391510F33B00284D25 /* MUCellLb1Lb1.m */; };
+		0234C2B11510F33B00284D25 /* MUCellLb1RoundSw1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C23B1510F33B00284D25 /* MUCellLb1RoundSw1.m */; };
+		0234C2B21510F33B00284D25 /* MUCellLb1Sw1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C23D1510F33B00284D25 /* MUCellLb1Sw1.m */; };
+		0234C2B31510F33B00284D25 /* MUCellLb1Tf1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C23F1510F33B00284D25 /* MUCellLb1Tf1.m */; };
+		0234C2B41510F33B00284D25 /* MUCellLb2Lb1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2411510F33B00284D25 /* MUCellLb2Lb1.m */; };
+		0234C2B51510F33B00284D25 /* MUCellLb2WithFullWidthLb1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2431510F33B00284D25 /* MUCellLb2WithFullWidthLb1.m */; };
+		0234C2B61510F33B00284D25 /* MUCellLb3Lb1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2451510F33B00284D25 /* MUCellLb3Lb1.m */; };
+		0234C2B71510F33B00284D25 /* MUCellLb3WithFullWidth2Lb1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2471510F33B00284D25 /* MUCellLb3WithFullWidth2Lb1.m */; };
+		0234C2B81510F33B00284D25 /* MUCellLb3WithFullWidthLb1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2491510F33B00284D25 /* MUCellLb3WithFullWidthLb1.m */; };
+		0234C2B91510F33B00284D25 /* MUCellLbTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C24B1510F33B00284D25 /* MUCellLbTextView.m */; };
+		0234C2BA1510F33B00284D25 /* MUHalfCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C24D1510F33B00284D25 /* MUHalfCellView.m */; };
+		0234C2BB1510F33B00284D25 /* MUTableViewCell2Half.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C24F1510F33B00284D25 /* MUTableViewCell2Half.m */; };
+		0234C2BC1510F33B00284D25 /* MUToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2511510F33B00284D25 /* MUToolbar.m */; };
+		0234C2BD1510F33B00284D25 /* MUBaseScrollerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2541510F33B00284D25 /* MUBaseScrollerController.m */; };
+		0234C2BE1510F33B00284D25 /* MUBaseTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2561510F33B00284D25 /* MUBaseTableController.m */; };
+		0234C2BF1510F33B00284D25 /* MUBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2581510F33B00284D25 /* MUBaseViewController.m */; };
+		0234C2C01510F33B00284D25 /* MUVeraetyCellsTableControllerReadonly.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C25A1510F33B00284D25 /* MUVeraetyCellsTableControllerReadonly.m */; };
+		0234C2C11510F33B00284D25 /* MUVeraetyCellsTableControllerWritable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C25C1510F33B00284D25 /* MUVeraetyCellsTableControllerWritable.m */; };
+		0234C2C21510F33B00284D25 /* MUCreditCardNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C25F1510F33B00284D25 /* MUCreditCardNumberFormatter.m */; };
+		0234C2C31510F33B00284D25 /* MUPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2621510F33B00284D25 /* MUPair.m */; };
+		0234C2C41510F33B00284D25 /* MUPhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2641510F33B00284D25 /* MUPhoneNumberFormatter.m */; };
+		0234C2C51510F33B00284D25 /* MUTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2661510F33B00284D25 /* MUTargetAction.m */; };
+		0234C2C61510F33B00284D25 /* MUTitledID.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2681510F33B00284D25 /* MUTitledID.m */; };
+		0234C2C71510F33B00284D25 /* MUValidationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C26A1510F33B00284D25 /* MUValidationGroup.m */; };
+		0234C2C81510F33B00284D25 /* MUValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C26C1510F33B00284D25 /* MUValidator.m */; };
+		0234C2C91510F33B00284D25 /* MUWeakRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C26E1510F33B00284D25 /* MUWeakRef.m */; };
+		0234C2CA1510F33B00284D25 /* MUCocoaExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2711510F33B00284D25 /* MUCocoaExtentions.m */; };
+		0234C2CB1510F33B00284D25 /* NSString+Base64Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2731510F33B00284D25 /* NSString+Base64Encoding.m */; };
+		0234C2CC1510F33B00284D25 /* MUGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2761510F33B00284D25 /* MUGateway.m */; };
+		0234C2CD1510F33B00284D25 /* MUGatewayResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2781510F33B00284D25 /* MUGatewayResponse.m */; };
+		0234C2CE1510F33B00284D25 /* MUGatewayTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C27A1510F33B00284D25 /* MUGatewayTask.m */; };
+		0234C2CF1510F33B00284D25 /* MUHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C27C1510F33B00284D25 /* MUHTTPClient.m */; };
+		0234C2D01510F33B00284D25 /* MULogConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2801510F33B00284D25 /* MULogConsumer.m */; };
+		0234C2D11510F33B00284D25 /* MULogConsumerFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2821510F33B00284D25 /* MULogConsumerFile.m */; };
+		0234C2D21510F33B00284D25 /* MULogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2851510F33B00284D25 /* MULogManager.m */; };
+		0234C2D31510F33B00284D25 /* MULogMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2871510F33B00284D25 /* MULogMessage.m */; };
+		0234C2D41510F33B00284D25 /* MULogFormatterPlainText.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C28B1510F33B00284D25 /* MULogFormatterPlainText.m */; };
+		0234C2D51510F33B00284D25 /* MULogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C28D1510F33B00284D25 /* MULogger.m */; };
+		0234C2D61510F33B00284D25 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0234C28E1510F33B00284D25 /* Podfile */; };
+		0234C2D71510F33B00284D25 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 0234C28F1510F33B00284D25 /* README */; };
+		0234C2D81510F33B00284D25 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2931510F33B00284D25 /* NSDate-Utilities.m */; };
+		0234C2D91510F33B00284D25 /* DCRoundSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2961510F33B00284D25 /* DCRoundSwitch.m */; };
+		0234C2DA1510F33B00284D25 /* DCRoundSwitchKnobLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C2981510F33B00284D25 /* DCRoundSwitchKnobLayer.m */; };
+		0234C2DB1510F33B00284D25 /* DCRoundSwitchOutlineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C29A1510F33B00284D25 /* DCRoundSwitchOutlineLayer.m */; };
+		0234C2DC1510F33B00284D25 /* DCRoundSwitchToggleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C29C1510F33B00284D25 /* DCRoundSwitchToggleLayer.m */; };
+		0234C2DD1510F33B00284D25 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0234C29D1510F33B00284D25 /* license.txt */; };
+		0234C2DE1510F33B00284D25 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 0234C29E1510F33B00284D25 /* readme.md */; };
 		07A773576EC1458082F502ED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DEC245B1C4F3CA17A65C2 /* libPods.a */; };
 		E624EAA014D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EA9E14D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.m */; };
 		E624EAA114D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E624EA9F14D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.xib */; };
@@ -16,48 +78,6 @@
 		E624EAA614D6AD0E00F3A968 /* MUKeyboardAvoidingTableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E624EAA414D6AD0E00F3A968 /* MUKeyboardAvoidingTableController.xib */; };
 		E624EAB214D6C0E700F3A968 /* warning_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E624EAB014D6C0E700F3A968 /* warning_icon.png */; };
 		E624EAB314D6C0E700F3A968 /* warning_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E624EAB114D6C0E700F3A968 /* warning_icon@2x.png */; };
-		E624EBB814D6D19200F3A968 /* MUTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB5C14D6D19200F3A968 /* MUTextField.m */; };
-		E624EBB914D6D19200F3A968 /* MUTextFieldPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB5E14D6D19200F3A968 /* MUTextFieldPadding.m */; };
-		E624EBBA14D6D19200F3A968 /* MUTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB6014D6D19200F3A968 /* MUTextView.m */; };
-		E624EBBB14D6D19200F3A968 /* MUTextViewAutosize.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB6214D6D19200F3A968 /* MUTextViewAutosize.m */; };
-		E624EBBC14D6D19200F3A968 /* MUAlertWithTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB6414D6D19200F3A968 /* MUAlertWithTextField.m */; };
-		E624EBBD14D6D19200F3A968 /* MUAutoresizeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB6614D6D19200F3A968 /* MUAutoresizeButton.m */; };
-		E624EBBE14D6D19200F3A968 /* MUKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB6914D6D19200F3A968 /* MUKeyboardAvoidingScrollView.m */; };
-		E624EBBF14D6D19200F3A968 /* MUKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB6B14D6D19200F3A968 /* MUKeyboardAvoidingTableView.m */; };
-		E624EBC714D6D19200F3A968 /* MUProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB7C14D6D19200F3A968 /* MUProgressView.m */; };
-		E624EBC814D6D19200F3A968 /* MUSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB7E14D6D19200F3A968 /* MUSearchBar.m */; };
-		E624EBC914D6D19200F3A968 /* MUSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB8014D6D19200F3A968 /* MUSegmentedControl.m */; };
-		E624EBCA14D6D19200F3A968 /* MUSpinneredView.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB8214D6D19200F3A968 /* MUSpinneredView.m */; };
-		E624EBCB14D6D19200F3A968 /* MUStackedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB8414D6D19200F3A968 /* MUStackedView.m */; };
-		E624EBCC14D6D19200F3A968 /* MUTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB8614D6D19200F3A968 /* MUTabBar.m */; };
-		E624EBCD14D6D19200F3A968 /* MUCellLb1Img1.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB8914D6D19200F3A968 /* MUCellLb1Img1.m */; };
-		E624EBCE14D6D19200F3A968 /* MUCellLb1Lb1.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB8B14D6D19200F3A968 /* MUCellLb1Lb1.m */; };
-		E624EBCF14D6D19200F3A968 /* MUCellLb1RoundSw1.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB8D14D6D19200F3A968 /* MUCellLb1RoundSw1.m */; };
-		E624EBD014D6D19200F3A968 /* MUCellLb1Sw1.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB8F14D6D19200F3A968 /* MUCellLb1Sw1.m */; };
-		E624EBD114D6D19200F3A968 /* MUCellLb1Tf1.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB9114D6D19200F3A968 /* MUCellLb1Tf1.m */; };
-		E624EBD214D6D19200F3A968 /* MUCellLb2Lb1.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB9314D6D19200F3A968 /* MUCellLb2Lb1.m */; };
-		E624EBD314D6D19200F3A968 /* MUCellLb2WithFullWidthLb1.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB9514D6D19200F3A968 /* MUCellLb2WithFullWidthLb1.m */; };
-		E624EBD414D6D19200F3A968 /* MUCellLb3Lb1.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB9714D6D19200F3A968 /* MUCellLb3Lb1.m */; };
-		E624EBD514D6D19200F3A968 /* MUCellLb3WithFullWidth2Lb1.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB9914D6D19200F3A968 /* MUCellLb3WithFullWidth2Lb1.m */; };
-		E624EBD614D6D19200F3A968 /* MUCellLb3WithFullWidthLb1.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB9B14D6D19200F3A968 /* MUCellLb3WithFullWidthLb1.m */; };
-		E624EBD714D6D19200F3A968 /* MUCellLbTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB9D14D6D19200F3A968 /* MUCellLbTextView.m */; };
-		E624EBD814D6D19200F3A968 /* MUHalfCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EB9F14D6D19200F3A968 /* MUHalfCellView.m */; };
-		E624EBD914D6D19200F3A968 /* MUTableViewCell2Half.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBA114D6D19200F3A968 /* MUTableViewCell2Half.m */; };
-		E624EBDA14D6D19200F3A968 /* MUToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBA314D6D19200F3A968 /* MUToolbar.m */; };
-		E624EBDB14D6D19200F3A968 /* MUPair.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBA714D6D19200F3A968 /* MUPair.m */; };
-		E624EBDC14D6D19200F3A968 /* MUTitledID.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBA914D6D19200F3A968 /* MUTitledID.m */; };
-		E624EBDD14D6D19200F3A968 /* MUValidationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBAB14D6D19200F3A968 /* MUValidationGroup.m */; };
-		E624EBDE14D6D19200F3A968 /* MUValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBAD14D6D19200F3A968 /* MUValidator.m */; };
-		E624EBDF14D6D19200F3A968 /* MUWeakRef.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBAF14D6D19200F3A968 /* MUWeakRef.m */; };
-		E624EBE014D6D19200F3A968 /* MUCocoaExtentions.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBB214D6D19200F3A968 /* MUCocoaExtentions.m */; };
-		E624EBE114D6D19200F3A968 /* NSString+Base64Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBB414D6D19200F3A968 /* NSString+Base64Encoding.m */; };
-		E624EBE714D6D2B200F3A968 /* NSDate-Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBE614D6D2B200F3A968 /* NSDate-Utilities.m */; };
-		E624EBF314D6D45200F3A968 /* DCRoundSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBEA14D6D45200F3A968 /* DCRoundSwitch.m */; };
-		E624EBF414D6D45200F3A968 /* DCRoundSwitchKnobLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBEC14D6D45200F3A968 /* DCRoundSwitchKnobLayer.m */; };
-		E624EBF514D6D45200F3A968 /* DCRoundSwitchOutlineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBEE14D6D45200F3A968 /* DCRoundSwitchOutlineLayer.m */; };
-		E624EBF614D6D45200F3A968 /* DCRoundSwitchToggleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EBF014D6D45200F3A968 /* DCRoundSwitchToggleLayer.m */; };
-		E624EBF714D6D45200F3A968 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = E624EBF114D6D45200F3A968 /* license.txt */; };
-		E624EBF814D6D45200F3A968 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = E624EBF214D6D45200F3A968 /* readme.md */; };
 		E624EBFA14D6D4F900F3A968 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E624EBF914D6D4F800F3A968 /* QuartzCore.framework */; };
 		E67380CD14D6824600B35246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E67380CC14D6824600B35246 /* UIKit.framework */; };
 		E67380CF14D6824600B35246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E67380CE14D6824600B35246 /* Foundation.framework */; };
@@ -71,20 +91,134 @@
 		E673819A14D6A0AA00B35246 /* MURootControllerIPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E673819614D6A0AA00B35246 /* MURootControllerIPhone.xib */; };
 		E679757014D97C610054A31C /* HalfCellTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E679756E14D97C610054A31C /* HalfCellTestController.m */; };
 		E679757114D97C610054A31C /* HalfCellTestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E679756F14D97C610054A31C /* HalfCellTestController.xib */; };
-		E679758114D999270054A31C /* MUBaseScrollerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E679757814D999270054A31C /* MUBaseScrollerController.m */; };
-		E679758214D999270054A31C /* MUBaseTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = E679757A14D999270054A31C /* MUBaseTableController.m */; };
-		E679758314D999270054A31C /* MUBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E679757C14D999270054A31C /* MUBaseViewController.m */; };
-		E679758414D999270054A31C /* MUVeraetyCellsTableControllerReadonly.m in Sources */ = {isa = PBXBuildFile; fileRef = E679757E14D999270054A31C /* MUVeraetyCellsTableControllerReadonly.m */; };
-		E679758514D999270054A31C /* MUVeraetyCellsTableControllerWritable.m in Sources */ = {isa = PBXBuildFile; fileRef = E679758014D999270054A31C /* MUVeraetyCellsTableControllerWritable.m */; };
-		E6992C3714DD767D008AAF2D /* MUPhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E6992C3614DD767D008AAF2D /* MUPhoneNumberFormatter.m */; };
-		E6992C5014DE6420008AAF2D /* MUCreditCardNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E6992C4F14DE641F008AAF2D /* MUCreditCardNumberFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0234C12B1510BF8000284D25 /* MUImageViewTapable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUImageViewTapable.h; sourceTree = "<group>"; };
-		0234C12C1510BF8000284D25 /* MUImageViewTapable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUImageViewTapable.m; sourceTree = "<group>"; };
-		0234C12F1510C25D00284D25 /* MUTargetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTargetAction.h; sourceTree = "<group>"; };
-		0234C1301510C25E00284D25 /* MUTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTargetAction.m; sourceTree = "<group>"; };
+		0234C2131510F33B00284D25 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0234C2161510F33B00284D25 /* MUTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTextField.h; sourceTree = "<group>"; };
+		0234C2171510F33B00284D25 /* MUTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTextField.m; sourceTree = "<group>"; };
+		0234C2181510F33B00284D25 /* MUTextFieldPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTextFieldPadding.h; sourceTree = "<group>"; };
+		0234C2191510F33B00284D25 /* MUTextFieldPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTextFieldPadding.m; sourceTree = "<group>"; };
+		0234C21A1510F33B00284D25 /* MUTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTextView.h; sourceTree = "<group>"; };
+		0234C21B1510F33B00284D25 /* MUTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTextView.m; sourceTree = "<group>"; };
+		0234C21C1510F33B00284D25 /* MUTextViewAutosize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTextViewAutosize.h; sourceTree = "<group>"; };
+		0234C21D1510F33B00284D25 /* MUTextViewAutosize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTextViewAutosize.m; sourceTree = "<group>"; };
+		0234C21E1510F33B00284D25 /* MUAlertWithTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUAlertWithTextField.h; sourceTree = "<group>"; };
+		0234C21F1510F33B00284D25 /* MUAlertWithTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUAlertWithTextField.m; sourceTree = "<group>"; };
+		0234C2201510F33B00284D25 /* MUAutoresizeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUAutoresizeButton.h; sourceTree = "<group>"; };
+		0234C2211510F33B00284D25 /* MUAutoresizeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUAutoresizeButton.m; sourceTree = "<group>"; };
+		0234C2221510F33B00284D25 /* MUImageViewTapable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUImageViewTapable.h; sourceTree = "<group>"; };
+		0234C2231510F33B00284D25 /* MUImageViewTapable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUImageViewTapable.m; sourceTree = "<group>"; };
+		0234C2251510F33B00284D25 /* MUKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		0234C2261510F33B00284D25 /* MUKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		0234C2271510F33B00284D25 /* MUKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		0234C2281510F33B00284D25 /* MUKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		0234C2291510F33B00284D25 /* MUProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUProgressView.h; sourceTree = "<group>"; };
+		0234C22A1510F33B00284D25 /* MUProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUProgressView.m; sourceTree = "<group>"; };
+		0234C22B1510F33B00284D25 /* MUSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSearchBar.h; sourceTree = "<group>"; };
+		0234C22C1510F33B00284D25 /* MUSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSearchBar.m; sourceTree = "<group>"; };
+		0234C22D1510F33B00284D25 /* MUSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSegmentedControl.h; sourceTree = "<group>"; };
+		0234C22E1510F33B00284D25 /* MUSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSegmentedControl.m; sourceTree = "<group>"; };
+		0234C22F1510F33B00284D25 /* MUSpinneredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSpinneredView.h; sourceTree = "<group>"; };
+		0234C2301510F33B00284D25 /* MUSpinneredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSpinneredView.m; sourceTree = "<group>"; };
+		0234C2311510F33B00284D25 /* MUStackedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUStackedView.h; sourceTree = "<group>"; };
+		0234C2321510F33B00284D25 /* MUStackedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUStackedView.m; sourceTree = "<group>"; };
+		0234C2331510F33B00284D25 /* MUTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTabBar.h; sourceTree = "<group>"; };
+		0234C2341510F33B00284D25 /* MUTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTabBar.m; sourceTree = "<group>"; };
+		0234C2361510F33B00284D25 /* MUCellLb1Img1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb1Img1.h; sourceTree = "<group>"; };
+		0234C2371510F33B00284D25 /* MUCellLb1Img1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb1Img1.m; sourceTree = "<group>"; };
+		0234C2381510F33B00284D25 /* MUCellLb1Lb1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb1Lb1.h; sourceTree = "<group>"; };
+		0234C2391510F33B00284D25 /* MUCellLb1Lb1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb1Lb1.m; sourceTree = "<group>"; };
+		0234C23A1510F33B00284D25 /* MUCellLb1RoundSw1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb1RoundSw1.h; sourceTree = "<group>"; };
+		0234C23B1510F33B00284D25 /* MUCellLb1RoundSw1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb1RoundSw1.m; sourceTree = "<group>"; };
+		0234C23C1510F33B00284D25 /* MUCellLb1Sw1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb1Sw1.h; sourceTree = "<group>"; };
+		0234C23D1510F33B00284D25 /* MUCellLb1Sw1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb1Sw1.m; sourceTree = "<group>"; };
+		0234C23E1510F33B00284D25 /* MUCellLb1Tf1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb1Tf1.h; sourceTree = "<group>"; };
+		0234C23F1510F33B00284D25 /* MUCellLb1Tf1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb1Tf1.m; sourceTree = "<group>"; };
+		0234C2401510F33B00284D25 /* MUCellLb2Lb1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb2Lb1.h; sourceTree = "<group>"; };
+		0234C2411510F33B00284D25 /* MUCellLb2Lb1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb2Lb1.m; sourceTree = "<group>"; };
+		0234C2421510F33B00284D25 /* MUCellLb2WithFullWidthLb1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb2WithFullWidthLb1.h; sourceTree = "<group>"; };
+		0234C2431510F33B00284D25 /* MUCellLb2WithFullWidthLb1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb2WithFullWidthLb1.m; sourceTree = "<group>"; };
+		0234C2441510F33B00284D25 /* MUCellLb3Lb1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb3Lb1.h; sourceTree = "<group>"; };
+		0234C2451510F33B00284D25 /* MUCellLb3Lb1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb3Lb1.m; sourceTree = "<group>"; };
+		0234C2461510F33B00284D25 /* MUCellLb3WithFullWidth2Lb1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb3WithFullWidth2Lb1.h; sourceTree = "<group>"; };
+		0234C2471510F33B00284D25 /* MUCellLb3WithFullWidth2Lb1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb3WithFullWidth2Lb1.m; sourceTree = "<group>"; };
+		0234C2481510F33B00284D25 /* MUCellLb3WithFullWidthLb1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb3WithFullWidthLb1.h; sourceTree = "<group>"; };
+		0234C2491510F33B00284D25 /* MUCellLb3WithFullWidthLb1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb3WithFullWidthLb1.m; sourceTree = "<group>"; };
+		0234C24A1510F33B00284D25 /* MUCellLbTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLbTextView.h; sourceTree = "<group>"; };
+		0234C24B1510F33B00284D25 /* MUCellLbTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLbTextView.m; sourceTree = "<group>"; };
+		0234C24C1510F33B00284D25 /* MUHalfCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUHalfCellView.h; sourceTree = "<group>"; };
+		0234C24D1510F33B00284D25 /* MUHalfCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUHalfCellView.m; sourceTree = "<group>"; };
+		0234C24E1510F33B00284D25 /* MUTableViewCell2Half.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTableViewCell2Half.h; sourceTree = "<group>"; };
+		0234C24F1510F33B00284D25 /* MUTableViewCell2Half.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTableViewCell2Half.m; sourceTree = "<group>"; };
+		0234C2501510F33B00284D25 /* MUToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUToolbar.h; sourceTree = "<group>"; };
+		0234C2511510F33B00284D25 /* MUToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUToolbar.m; sourceTree = "<group>"; };
+		0234C2531510F33B00284D25 /* MUBaseScrollerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUBaseScrollerController.h; sourceTree = "<group>"; };
+		0234C2541510F33B00284D25 /* MUBaseScrollerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUBaseScrollerController.m; sourceTree = "<group>"; };
+		0234C2551510F33B00284D25 /* MUBaseTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUBaseTableController.h; sourceTree = "<group>"; };
+		0234C2561510F33B00284D25 /* MUBaseTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUBaseTableController.m; sourceTree = "<group>"; };
+		0234C2571510F33B00284D25 /* MUBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUBaseViewController.h; sourceTree = "<group>"; };
+		0234C2581510F33B00284D25 /* MUBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUBaseViewController.m; sourceTree = "<group>"; };
+		0234C2591510F33B00284D25 /* MUVeraetyCellsTableControllerReadonly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUVeraetyCellsTableControllerReadonly.h; sourceTree = "<group>"; };
+		0234C25A1510F33B00284D25 /* MUVeraetyCellsTableControllerReadonly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUVeraetyCellsTableControllerReadonly.m; sourceTree = "<group>"; };
+		0234C25B1510F33B00284D25 /* MUVeraetyCellsTableControllerWritable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUVeraetyCellsTableControllerWritable.h; sourceTree = "<group>"; };
+		0234C25C1510F33B00284D25 /* MUVeraetyCellsTableControllerWritable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUVeraetyCellsTableControllerWritable.m; sourceTree = "<group>"; };
+		0234C25E1510F33B00284D25 /* MUCreditCardNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCreditCardNumberFormatter.h; sourceTree = "<group>"; };
+		0234C25F1510F33B00284D25 /* MUCreditCardNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCreditCardNumberFormatter.m; sourceTree = "<group>"; };
+		0234C2601510F33B00284D25 /* MUKitDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUKitDefines.h; sourceTree = "<group>"; };
+		0234C2611510F33B00284D25 /* MUPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPair.h; sourceTree = "<group>"; };
+		0234C2621510F33B00284D25 /* MUPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPair.m; sourceTree = "<group>"; };
+		0234C2631510F33B00284D25 /* MUPhoneNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPhoneNumberFormatter.h; sourceTree = "<group>"; };
+		0234C2641510F33B00284D25 /* MUPhoneNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPhoneNumberFormatter.m; sourceTree = "<group>"; };
+		0234C2651510F33B00284D25 /* MUTargetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTargetAction.h; sourceTree = "<group>"; };
+		0234C2661510F33B00284D25 /* MUTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTargetAction.m; sourceTree = "<group>"; };
+		0234C2671510F33B00284D25 /* MUTitledID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTitledID.h; sourceTree = "<group>"; };
+		0234C2681510F33B00284D25 /* MUTitledID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTitledID.m; sourceTree = "<group>"; };
+		0234C2691510F33B00284D25 /* MUValidationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUValidationGroup.h; sourceTree = "<group>"; };
+		0234C26A1510F33B00284D25 /* MUValidationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUValidationGroup.m; sourceTree = "<group>"; };
+		0234C26B1510F33B00284D25 /* MUValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUValidator.h; sourceTree = "<group>"; };
+		0234C26C1510F33B00284D25 /* MUValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUValidator.m; sourceTree = "<group>"; };
+		0234C26D1510F33B00284D25 /* MUWeakRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUWeakRef.h; sourceTree = "<group>"; };
+		0234C26E1510F33B00284D25 /* MUWeakRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUWeakRef.m; sourceTree = "<group>"; };
+		0234C2701510F33B00284D25 /* MUCocoaExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCocoaExtentions.h; sourceTree = "<group>"; };
+		0234C2711510F33B00284D25 /* MUCocoaExtentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCocoaExtentions.m; sourceTree = "<group>"; };
+		0234C2721510F33B00284D25 /* NSString+Base64Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64Encoding.h"; sourceTree = "<group>"; };
+		0234C2731510F33B00284D25 /* NSString+Base64Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64Encoding.m"; sourceTree = "<group>"; };
+		0234C2751510F33B00284D25 /* MUGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUGateway.h; sourceTree = "<group>"; };
+		0234C2761510F33B00284D25 /* MUGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUGateway.m; sourceTree = "<group>"; };
+		0234C2771510F33B00284D25 /* MUGatewayResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUGatewayResponse.h; sourceTree = "<group>"; };
+		0234C2781510F33B00284D25 /* MUGatewayResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUGatewayResponse.m; sourceTree = "<group>"; };
+		0234C2791510F33B00284D25 /* MUGatewayTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUGatewayTask.h; sourceTree = "<group>"; };
+		0234C27A1510F33B00284D25 /* MUGatewayTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUGatewayTask.m; sourceTree = "<group>"; };
+		0234C27B1510F33B00284D25 /* MUHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUHTTPClient.h; sourceTree = "<group>"; };
+		0234C27C1510F33B00284D25 /* MUHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUHTTPClient.m; sourceTree = "<group>"; };
+		0234C27F1510F33B00284D25 /* MULogConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MULogConsumer.h; sourceTree = "<group>"; };
+		0234C2801510F33B00284D25 /* MULogConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MULogConsumer.m; sourceTree = "<group>"; };
+		0234C2811510F33B00284D25 /* MULogConsumerFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MULogConsumerFile.h; sourceTree = "<group>"; };
+		0234C2821510F33B00284D25 /* MULogConsumerFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MULogConsumerFile.m; sourceTree = "<group>"; };
+		0234C2841510F33B00284D25 /* MULogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MULogManager.h; sourceTree = "<group>"; };
+		0234C2851510F33B00284D25 /* MULogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MULogManager.m; sourceTree = "<group>"; };
+		0234C2861510F33B00284D25 /* MULogMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MULogMessage.h; sourceTree = "<group>"; };
+		0234C2871510F33B00284D25 /* MULogMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MULogMessage.m; sourceTree = "<group>"; };
+		0234C2891510F33B00284D25 /* MULogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MULogFormatter.h; sourceTree = "<group>"; };
+		0234C28A1510F33B00284D25 /* MULogFormatterPlainText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MULogFormatterPlainText.h; sourceTree = "<group>"; };
+		0234C28B1510F33B00284D25 /* MULogFormatterPlainText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MULogFormatterPlainText.m; sourceTree = "<group>"; };
+		0234C28C1510F33B00284D25 /* MULogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MULogger.h; sourceTree = "<group>"; };
+		0234C28D1510F33B00284D25 /* MULogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MULogger.m; sourceTree = "<group>"; };
+		0234C28E1510F33B00284D25 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0234C28F1510F33B00284D25 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		0234C2921510F33B00284D25 /* NSDate-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Utilities.h"; sourceTree = "<group>"; };
+		0234C2931510F33B00284D25 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
+		0234C2951510F33B00284D25 /* DCRoundSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitch.h; sourceTree = "<group>"; };
+		0234C2961510F33B00284D25 /* DCRoundSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitch.m; sourceTree = "<group>"; };
+		0234C2971510F33B00284D25 /* DCRoundSwitchKnobLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchKnobLayer.h; sourceTree = "<group>"; };
+		0234C2981510F33B00284D25 /* DCRoundSwitchKnobLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchKnobLayer.m; sourceTree = "<group>"; };
+		0234C2991510F33B00284D25 /* DCRoundSwitchOutlineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchOutlineLayer.h; sourceTree = "<group>"; };
+		0234C29A1510F33B00284D25 /* DCRoundSwitchOutlineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchOutlineLayer.m; sourceTree = "<group>"; };
+		0234C29B1510F33B00284D25 /* DCRoundSwitchToggleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchToggleLayer.h; sourceTree = "<group>"; };
+		0234C29C1510F33B00284D25 /* DCRoundSwitchToggleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchToggleLayer.m; sourceTree = "<group>"; };
+		0234C29D1510F33B00284D25 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		0234C29E1510F33B00284D25 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
 		9B9DEC245B1C4F3CA17A65C2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E624EA9D14D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MUKeyboardAvoidingScrollController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		E624EA9E14D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MUKeyboardAvoidingScrollController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -94,89 +228,6 @@
 		E624EAA414D6AD0E00F3A968 /* MUKeyboardAvoidingTableController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUKeyboardAvoidingTableController.xib; sourceTree = "<group>"; };
 		E624EAB014D6C0E700F3A968 /* warning_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning_icon.png; sourceTree = "<group>"; };
 		E624EAB114D6C0E700F3A968 /* warning_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning_icon@2x.png"; sourceTree = "<group>"; };
-		E624EB5B14D6D19200F3A968 /* MUTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTextField.h; sourceTree = "<group>"; };
-		E624EB5C14D6D19200F3A968 /* MUTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTextField.m; sourceTree = "<group>"; };
-		E624EB5D14D6D19200F3A968 /* MUTextFieldPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTextFieldPadding.h; sourceTree = "<group>"; };
-		E624EB5E14D6D19200F3A968 /* MUTextFieldPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTextFieldPadding.m; sourceTree = "<group>"; };
-		E624EB5F14D6D19200F3A968 /* MUTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTextView.h; sourceTree = "<group>"; };
-		E624EB6014D6D19200F3A968 /* MUTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTextView.m; sourceTree = "<group>"; };
-		E624EB6114D6D19200F3A968 /* MUTextViewAutosize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTextViewAutosize.h; sourceTree = "<group>"; };
-		E624EB6214D6D19200F3A968 /* MUTextViewAutosize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTextViewAutosize.m; sourceTree = "<group>"; };
-		E624EB6314D6D19200F3A968 /* MUAlertWithTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUAlertWithTextField.h; sourceTree = "<group>"; };
-		E624EB6414D6D19200F3A968 /* MUAlertWithTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUAlertWithTextField.m; sourceTree = "<group>"; };
-		E624EB6514D6D19200F3A968 /* MUAutoresizeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUAutoresizeButton.h; sourceTree = "<group>"; };
-		E624EB6614D6D19200F3A968 /* MUAutoresizeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUAutoresizeButton.m; sourceTree = "<group>"; };
-		E624EB6814D6D19200F3A968 /* MUKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
-		E624EB6914D6D19200F3A968 /* MUKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
-		E624EB6A14D6D19200F3A968 /* MUKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MUKeyboardAvoidingTableView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		E624EB6B14D6D19200F3A968 /* MUKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MUKeyboardAvoidingTableView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		E624EB7B14D6D19200F3A968 /* MUProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUProgressView.h; sourceTree = "<group>"; };
-		E624EB7C14D6D19200F3A968 /* MUProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUProgressView.m; sourceTree = "<group>"; };
-		E624EB7D14D6D19200F3A968 /* MUSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSearchBar.h; sourceTree = "<group>"; };
-		E624EB7E14D6D19200F3A968 /* MUSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSearchBar.m; sourceTree = "<group>"; };
-		E624EB7F14D6D19200F3A968 /* MUSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSegmentedControl.h; sourceTree = "<group>"; };
-		E624EB8014D6D19200F3A968 /* MUSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSegmentedControl.m; sourceTree = "<group>"; };
-		E624EB8114D6D19200F3A968 /* MUSpinneredView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSpinneredView.h; sourceTree = "<group>"; };
-		E624EB8214D6D19200F3A968 /* MUSpinneredView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSpinneredView.m; sourceTree = "<group>"; };
-		E624EB8314D6D19200F3A968 /* MUStackedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUStackedView.h; sourceTree = "<group>"; };
-		E624EB8414D6D19200F3A968 /* MUStackedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUStackedView.m; sourceTree = "<group>"; };
-		E624EB8514D6D19200F3A968 /* MUTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTabBar.h; sourceTree = "<group>"; };
-		E624EB8614D6D19200F3A968 /* MUTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTabBar.m; sourceTree = "<group>"; };
-		E624EB8814D6D19200F3A968 /* MUCellLb1Img1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb1Img1.h; sourceTree = "<group>"; };
-		E624EB8914D6D19200F3A968 /* MUCellLb1Img1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb1Img1.m; sourceTree = "<group>"; };
-		E624EB8A14D6D19200F3A968 /* MUCellLb1Lb1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb1Lb1.h; sourceTree = "<group>"; };
-		E624EB8B14D6D19200F3A968 /* MUCellLb1Lb1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb1Lb1.m; sourceTree = "<group>"; };
-		E624EB8C14D6D19200F3A968 /* MUCellLb1RoundSw1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb1RoundSw1.h; sourceTree = "<group>"; };
-		E624EB8D14D6D19200F3A968 /* MUCellLb1RoundSw1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb1RoundSw1.m; sourceTree = "<group>"; };
-		E624EB8E14D6D19200F3A968 /* MUCellLb1Sw1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb1Sw1.h; sourceTree = "<group>"; };
-		E624EB8F14D6D19200F3A968 /* MUCellLb1Sw1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb1Sw1.m; sourceTree = "<group>"; };
-		E624EB9014D6D19200F3A968 /* MUCellLb1Tf1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb1Tf1.h; sourceTree = "<group>"; };
-		E624EB9114D6D19200F3A968 /* MUCellLb1Tf1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb1Tf1.m; sourceTree = "<group>"; };
-		E624EB9214D6D19200F3A968 /* MUCellLb2Lb1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb2Lb1.h; sourceTree = "<group>"; };
-		E624EB9314D6D19200F3A968 /* MUCellLb2Lb1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb2Lb1.m; sourceTree = "<group>"; };
-		E624EB9414D6D19200F3A968 /* MUCellLb2WithFullWidthLb1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb2WithFullWidthLb1.h; sourceTree = "<group>"; };
-		E624EB9514D6D19200F3A968 /* MUCellLb2WithFullWidthLb1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb2WithFullWidthLb1.m; sourceTree = "<group>"; };
-		E624EB9614D6D19200F3A968 /* MUCellLb3Lb1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb3Lb1.h; sourceTree = "<group>"; };
-		E624EB9714D6D19200F3A968 /* MUCellLb3Lb1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb3Lb1.m; sourceTree = "<group>"; };
-		E624EB9814D6D19200F3A968 /* MUCellLb3WithFullWidth2Lb1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb3WithFullWidth2Lb1.h; sourceTree = "<group>"; };
-		E624EB9914D6D19200F3A968 /* MUCellLb3WithFullWidth2Lb1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb3WithFullWidth2Lb1.m; sourceTree = "<group>"; };
-		E624EB9A14D6D19200F3A968 /* MUCellLb3WithFullWidthLb1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLb3WithFullWidthLb1.h; sourceTree = "<group>"; };
-		E624EB9B14D6D19200F3A968 /* MUCellLb3WithFullWidthLb1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLb3WithFullWidthLb1.m; sourceTree = "<group>"; };
-		E624EB9C14D6D19200F3A968 /* MUCellLbTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCellLbTextView.h; sourceTree = "<group>"; };
-		E624EB9D14D6D19200F3A968 /* MUCellLbTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCellLbTextView.m; sourceTree = "<group>"; };
-		E624EB9E14D6D19200F3A968 /* MUHalfCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUHalfCellView.h; sourceTree = "<group>"; };
-		E624EB9F14D6D19200F3A968 /* MUHalfCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUHalfCellView.m; sourceTree = "<group>"; };
-		E624EBA014D6D19200F3A968 /* MUTableViewCell2Half.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTableViewCell2Half.h; sourceTree = "<group>"; };
-		E624EBA114D6D19200F3A968 /* MUTableViewCell2Half.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTableViewCell2Half.m; sourceTree = "<group>"; };
-		E624EBA214D6D19200F3A968 /* MUToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUToolbar.h; sourceTree = "<group>"; };
-		E624EBA314D6D19200F3A968 /* MUToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUToolbar.m; sourceTree = "<group>"; };
-		E624EBA514D6D19200F3A968 /* MUKitDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUKitDefines.h; sourceTree = "<group>"; };
-		E624EBA614D6D19200F3A968 /* MUPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPair.h; sourceTree = "<group>"; };
-		E624EBA714D6D19200F3A968 /* MUPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPair.m; sourceTree = "<group>"; };
-		E624EBA814D6D19200F3A968 /* MUTitledID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTitledID.h; sourceTree = "<group>"; };
-		E624EBA914D6D19200F3A968 /* MUTitledID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTitledID.m; sourceTree = "<group>"; };
-		E624EBAA14D6D19200F3A968 /* MUValidationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUValidationGroup.h; sourceTree = "<group>"; };
-		E624EBAB14D6D19200F3A968 /* MUValidationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUValidationGroup.m; sourceTree = "<group>"; };
-		E624EBAC14D6D19200F3A968 /* MUValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUValidator.h; sourceTree = "<group>"; };
-		E624EBAD14D6D19200F3A968 /* MUValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUValidator.m; sourceTree = "<group>"; };
-		E624EBAE14D6D19200F3A968 /* MUWeakRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUWeakRef.h; sourceTree = "<group>"; };
-		E624EBAF14D6D19200F3A968 /* MUWeakRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUWeakRef.m; sourceTree = "<group>"; };
-		E624EBB114D6D19200F3A968 /* MUCocoaExtentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUCocoaExtentions.h; sourceTree = "<group>"; };
-		E624EBB214D6D19200F3A968 /* MUCocoaExtentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUCocoaExtentions.m; sourceTree = "<group>"; };
-		E624EBB314D6D19200F3A968 /* NSString+Base64Encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64Encoding.h"; sourceTree = "<group>"; };
-		E624EBB414D6D19200F3A968 /* NSString+Base64Encoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64Encoding.m"; sourceTree = "<group>"; };
-		E624EBE514D6D2B200F3A968 /* NSDate-Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate-Utilities.h"; sourceTree = "<group>"; };
-		E624EBE614D6D2B200F3A968 /* NSDate-Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate-Utilities.m"; sourceTree = "<group>"; };
-		E624EBE914D6D45200F3A968 /* DCRoundSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitch.h; sourceTree = "<group>"; };
-		E624EBEA14D6D45200F3A968 /* DCRoundSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitch.m; sourceTree = "<group>"; };
-		E624EBEB14D6D45200F3A968 /* DCRoundSwitchKnobLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchKnobLayer.h; sourceTree = "<group>"; };
-		E624EBEC14D6D45200F3A968 /* DCRoundSwitchKnobLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchKnobLayer.m; sourceTree = "<group>"; };
-		E624EBED14D6D45200F3A968 /* DCRoundSwitchOutlineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchOutlineLayer.h; sourceTree = "<group>"; };
-		E624EBEE14D6D45200F3A968 /* DCRoundSwitchOutlineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchOutlineLayer.m; sourceTree = "<group>"; };
-		E624EBEF14D6D45200F3A968 /* DCRoundSwitchToggleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchToggleLayer.h; sourceTree = "<group>"; };
-		E624EBF014D6D45200F3A968 /* DCRoundSwitchToggleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchToggleLayer.m; sourceTree = "<group>"; };
-		E624EBF114D6D45200F3A968 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
-		E624EBF214D6D45200F3A968 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
 		E624EBF914D6D4F800F3A968 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E67380C814D6824600B35246 /* MUKitMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MUKitMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E67380CC14D6824600B35246 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -197,20 +248,6 @@
 		E679756D14D97C610054A31C /* HalfCellTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = HalfCellTestController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		E679756E14D97C610054A31C /* HalfCellTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HalfCellTestController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		E679756F14D97C610054A31C /* HalfCellTestController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HalfCellTestController.xib; sourceTree = "<group>"; };
-		E679757714D999270054A31C /* MUBaseScrollerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUBaseScrollerController.h; sourceTree = "<group>"; };
-		E679757814D999270054A31C /* MUBaseScrollerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUBaseScrollerController.m; sourceTree = "<group>"; };
-		E679757914D999270054A31C /* MUBaseTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUBaseTableController.h; sourceTree = "<group>"; };
-		E679757A14D999270054A31C /* MUBaseTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUBaseTableController.m; sourceTree = "<group>"; };
-		E679757B14D999270054A31C /* MUBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUBaseViewController.h; sourceTree = "<group>"; };
-		E679757C14D999270054A31C /* MUBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUBaseViewController.m; sourceTree = "<group>"; };
-		E679757D14D999270054A31C /* MUVeraetyCellsTableControllerReadonly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUVeraetyCellsTableControllerReadonly.h; sourceTree = "<group>"; };
-		E679757E14D999270054A31C /* MUVeraetyCellsTableControllerReadonly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUVeraetyCellsTableControllerReadonly.m; sourceTree = "<group>"; };
-		E679757F14D999270054A31C /* MUVeraetyCellsTableControllerWritable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUVeraetyCellsTableControllerWritable.h; sourceTree = "<group>"; };
-		E679758014D999270054A31C /* MUVeraetyCellsTableControllerWritable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUVeraetyCellsTableControllerWritable.m; sourceTree = "<group>"; };
-		E6992C3514DD767D008AAF2D /* MUPhoneNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPhoneNumberFormatter.h; sourceTree = "<group>"; };
-		E6992C3614DD767D008AAF2D /* MUPhoneNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPhoneNumberFormatter.m; sourceTree = "<group>"; };
-		E6992C4E14DE641F008AAF2D /* MUCreditCardNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MUCreditCardNumberFormatter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		E6992C4F14DE641F008AAF2D /* MUCreditCardNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MUCreditCardNumberFormatter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		FDF2C11A05A042068BFC06D8 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -230,6 +267,258 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0234C2121510F33B00284D25 /* MUKit */ = {
+			isa = PBXGroup;
+			children = (
+				0234C2131510F33B00284D25 /* .gitignore */,
+				0234C2141510F33B00284D25 /* MUControls */,
+				0234C25D1510F33B00284D25 /* MUCore */,
+				0234C26F1510F33B00284D25 /* MUExtentions */,
+				0234C2741510F33B00284D25 /* MUGateway */,
+				0234C27D1510F33B00284D25 /* MULogger */,
+				0234C28E1510F33B00284D25 /* Podfile */,
+				0234C28F1510F33B00284D25 /* README */,
+				0234C2901510F33B00284D25 /* ThirdParty */,
+			);
+			path = MUKit;
+			sourceTree = "<group>";
+		};
+		0234C2141510F33B00284D25 /* MUControls */ = {
+			isa = PBXGroup;
+			children = (
+				0234C2151510F33B00284D25 /* InputFields */,
+				0234C21E1510F33B00284D25 /* MUAlertWithTextField.h */,
+				0234C21F1510F33B00284D25 /* MUAlertWithTextField.m */,
+				0234C2201510F33B00284D25 /* MUAutoresizeButton.h */,
+				0234C2211510F33B00284D25 /* MUAutoresizeButton.m */,
+				0234C2221510F33B00284D25 /* MUImageViewTapable.h */,
+				0234C2231510F33B00284D25 /* MUImageViewTapable.m */,
+				0234C2241510F33B00284D25 /* MUKeyboardAvoiding */,
+				0234C2291510F33B00284D25 /* MUProgressView.h */,
+				0234C22A1510F33B00284D25 /* MUProgressView.m */,
+				0234C22B1510F33B00284D25 /* MUSearchBar.h */,
+				0234C22C1510F33B00284D25 /* MUSearchBar.m */,
+				0234C22D1510F33B00284D25 /* MUSegmentedControl.h */,
+				0234C22E1510F33B00284D25 /* MUSegmentedControl.m */,
+				0234C22F1510F33B00284D25 /* MUSpinneredView.h */,
+				0234C2301510F33B00284D25 /* MUSpinneredView.m */,
+				0234C2311510F33B00284D25 /* MUStackedView.h */,
+				0234C2321510F33B00284D25 /* MUStackedView.m */,
+				0234C2331510F33B00284D25 /* MUTabBar.h */,
+				0234C2341510F33B00284D25 /* MUTabBar.m */,
+				0234C2351510F33B00284D25 /* MUTableViewCell2Half */,
+				0234C2501510F33B00284D25 /* MUToolbar.h */,
+				0234C2511510F33B00284D25 /* MUToolbar.m */,
+				0234C2521510F33B00284D25 /* ViewControllers */,
+			);
+			path = MUControls;
+			sourceTree = "<group>";
+		};
+		0234C2151510F33B00284D25 /* InputFields */ = {
+			isa = PBXGroup;
+			children = (
+				0234C2161510F33B00284D25 /* MUTextField.h */,
+				0234C2171510F33B00284D25 /* MUTextField.m */,
+				0234C2181510F33B00284D25 /* MUTextFieldPadding.h */,
+				0234C2191510F33B00284D25 /* MUTextFieldPadding.m */,
+				0234C21A1510F33B00284D25 /* MUTextView.h */,
+				0234C21B1510F33B00284D25 /* MUTextView.m */,
+				0234C21C1510F33B00284D25 /* MUTextViewAutosize.h */,
+				0234C21D1510F33B00284D25 /* MUTextViewAutosize.m */,
+			);
+			path = InputFields;
+			sourceTree = "<group>";
+		};
+		0234C2241510F33B00284D25 /* MUKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				0234C2251510F33B00284D25 /* MUKeyboardAvoidingScrollView.h */,
+				0234C2261510F33B00284D25 /* MUKeyboardAvoidingScrollView.m */,
+				0234C2271510F33B00284D25 /* MUKeyboardAvoidingTableView.h */,
+				0234C2281510F33B00284D25 /* MUKeyboardAvoidingTableView.m */,
+			);
+			path = MUKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		0234C2351510F33B00284D25 /* MUTableViewCell2Half */ = {
+			isa = PBXGroup;
+			children = (
+				0234C2361510F33B00284D25 /* MUCellLb1Img1.h */,
+				0234C2371510F33B00284D25 /* MUCellLb1Img1.m */,
+				0234C2381510F33B00284D25 /* MUCellLb1Lb1.h */,
+				0234C2391510F33B00284D25 /* MUCellLb1Lb1.m */,
+				0234C23A1510F33B00284D25 /* MUCellLb1RoundSw1.h */,
+				0234C23B1510F33B00284D25 /* MUCellLb1RoundSw1.m */,
+				0234C23C1510F33B00284D25 /* MUCellLb1Sw1.h */,
+				0234C23D1510F33B00284D25 /* MUCellLb1Sw1.m */,
+				0234C23E1510F33B00284D25 /* MUCellLb1Tf1.h */,
+				0234C23F1510F33B00284D25 /* MUCellLb1Tf1.m */,
+				0234C2401510F33B00284D25 /* MUCellLb2Lb1.h */,
+				0234C2411510F33B00284D25 /* MUCellLb2Lb1.m */,
+				0234C2421510F33B00284D25 /* MUCellLb2WithFullWidthLb1.h */,
+				0234C2431510F33B00284D25 /* MUCellLb2WithFullWidthLb1.m */,
+				0234C2441510F33B00284D25 /* MUCellLb3Lb1.h */,
+				0234C2451510F33B00284D25 /* MUCellLb3Lb1.m */,
+				0234C2461510F33B00284D25 /* MUCellLb3WithFullWidth2Lb1.h */,
+				0234C2471510F33B00284D25 /* MUCellLb3WithFullWidth2Lb1.m */,
+				0234C2481510F33B00284D25 /* MUCellLb3WithFullWidthLb1.h */,
+				0234C2491510F33B00284D25 /* MUCellLb3WithFullWidthLb1.m */,
+				0234C24A1510F33B00284D25 /* MUCellLbTextView.h */,
+				0234C24B1510F33B00284D25 /* MUCellLbTextView.m */,
+				0234C24C1510F33B00284D25 /* MUHalfCellView.h */,
+				0234C24D1510F33B00284D25 /* MUHalfCellView.m */,
+				0234C24E1510F33B00284D25 /* MUTableViewCell2Half.h */,
+				0234C24F1510F33B00284D25 /* MUTableViewCell2Half.m */,
+			);
+			path = MUTableViewCell2Half;
+			sourceTree = "<group>";
+		};
+		0234C2521510F33B00284D25 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0234C2531510F33B00284D25 /* MUBaseScrollerController.h */,
+				0234C2541510F33B00284D25 /* MUBaseScrollerController.m */,
+				0234C2551510F33B00284D25 /* MUBaseTableController.h */,
+				0234C2561510F33B00284D25 /* MUBaseTableController.m */,
+				0234C2571510F33B00284D25 /* MUBaseViewController.h */,
+				0234C2581510F33B00284D25 /* MUBaseViewController.m */,
+				0234C2591510F33B00284D25 /* MUVeraetyCellsTableControllerReadonly.h */,
+				0234C25A1510F33B00284D25 /* MUVeraetyCellsTableControllerReadonly.m */,
+				0234C25B1510F33B00284D25 /* MUVeraetyCellsTableControllerWritable.h */,
+				0234C25C1510F33B00284D25 /* MUVeraetyCellsTableControllerWritable.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0234C25D1510F33B00284D25 /* MUCore */ = {
+			isa = PBXGroup;
+			children = (
+				0234C25E1510F33B00284D25 /* MUCreditCardNumberFormatter.h */,
+				0234C25F1510F33B00284D25 /* MUCreditCardNumberFormatter.m */,
+				0234C2601510F33B00284D25 /* MUKitDefines.h */,
+				0234C2611510F33B00284D25 /* MUPair.h */,
+				0234C2621510F33B00284D25 /* MUPair.m */,
+				0234C2631510F33B00284D25 /* MUPhoneNumberFormatter.h */,
+				0234C2641510F33B00284D25 /* MUPhoneNumberFormatter.m */,
+				0234C2651510F33B00284D25 /* MUTargetAction.h */,
+				0234C2661510F33B00284D25 /* MUTargetAction.m */,
+				0234C2671510F33B00284D25 /* MUTitledID.h */,
+				0234C2681510F33B00284D25 /* MUTitledID.m */,
+				0234C2691510F33B00284D25 /* MUValidationGroup.h */,
+				0234C26A1510F33B00284D25 /* MUValidationGroup.m */,
+				0234C26B1510F33B00284D25 /* MUValidator.h */,
+				0234C26C1510F33B00284D25 /* MUValidator.m */,
+				0234C26D1510F33B00284D25 /* MUWeakRef.h */,
+				0234C26E1510F33B00284D25 /* MUWeakRef.m */,
+			);
+			path = MUCore;
+			sourceTree = "<group>";
+		};
+		0234C26F1510F33B00284D25 /* MUExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				0234C2701510F33B00284D25 /* MUCocoaExtentions.h */,
+				0234C2711510F33B00284D25 /* MUCocoaExtentions.m */,
+				0234C2721510F33B00284D25 /* NSString+Base64Encoding.h */,
+				0234C2731510F33B00284D25 /* NSString+Base64Encoding.m */,
+			);
+			path = MUExtentions;
+			sourceTree = "<group>";
+		};
+		0234C2741510F33B00284D25 /* MUGateway */ = {
+			isa = PBXGroup;
+			children = (
+				0234C2751510F33B00284D25 /* MUGateway.h */,
+				0234C2761510F33B00284D25 /* MUGateway.m */,
+				0234C2771510F33B00284D25 /* MUGatewayResponse.h */,
+				0234C2781510F33B00284D25 /* MUGatewayResponse.m */,
+				0234C2791510F33B00284D25 /* MUGatewayTask.h */,
+				0234C27A1510F33B00284D25 /* MUGatewayTask.m */,
+				0234C27B1510F33B00284D25 /* MUHTTPClient.h */,
+				0234C27C1510F33B00284D25 /* MUHTTPClient.m */,
+			);
+			path = MUGateway;
+			sourceTree = "<group>";
+		};
+		0234C27D1510F33B00284D25 /* MULogger */ = {
+			isa = PBXGroup;
+			children = (
+				0234C27E1510F33B00284D25 /* Consumers */,
+				0234C2831510F33B00284D25 /* Core */,
+				0234C2881510F33B00284D25 /* Formatters */,
+				0234C28C1510F33B00284D25 /* MULogger.h */,
+				0234C28D1510F33B00284D25 /* MULogger.m */,
+			);
+			path = MULogger;
+			sourceTree = "<group>";
+		};
+		0234C27E1510F33B00284D25 /* Consumers */ = {
+			isa = PBXGroup;
+			children = (
+				0234C27F1510F33B00284D25 /* MULogConsumer.h */,
+				0234C2801510F33B00284D25 /* MULogConsumer.m */,
+				0234C2811510F33B00284D25 /* MULogConsumerFile.h */,
+				0234C2821510F33B00284D25 /* MULogConsumerFile.m */,
+			);
+			path = Consumers;
+			sourceTree = "<group>";
+		};
+		0234C2831510F33B00284D25 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0234C2841510F33B00284D25 /* MULogManager.h */,
+				0234C2851510F33B00284D25 /* MULogManager.m */,
+				0234C2861510F33B00284D25 /* MULogMessage.h */,
+				0234C2871510F33B00284D25 /* MULogMessage.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0234C2881510F33B00284D25 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				0234C2891510F33B00284D25 /* MULogFormatter.h */,
+				0234C28A1510F33B00284D25 /* MULogFormatterPlainText.h */,
+				0234C28B1510F33B00284D25 /* MULogFormatterPlainText.m */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		0234C2901510F33B00284D25 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				0234C2911510F33B00284D25 /* DateExtentions */,
+				0234C2941510F33B00284D25 /* DCRoundSwitch */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		0234C2911510F33B00284D25 /* DateExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				0234C2921510F33B00284D25 /* NSDate-Utilities.h */,
+				0234C2931510F33B00284D25 /* NSDate-Utilities.m */,
+			);
+			path = DateExtentions;
+			sourceTree = "<group>";
+		};
+		0234C2941510F33B00284D25 /* DCRoundSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				0234C2951510F33B00284D25 /* DCRoundSwitch.h */,
+				0234C2961510F33B00284D25 /* DCRoundSwitch.m */,
+				0234C2971510F33B00284D25 /* DCRoundSwitchKnobLayer.h */,
+				0234C2981510F33B00284D25 /* DCRoundSwitchKnobLayer.m */,
+				0234C2991510F33B00284D25 /* DCRoundSwitchOutlineLayer.h */,
+				0234C29A1510F33B00284D25 /* DCRoundSwitchOutlineLayer.m */,
+				0234C29B1510F33B00284D25 /* DCRoundSwitchToggleLayer.h */,
+				0234C29C1510F33B00284D25 /* DCRoundSwitchToggleLayer.m */,
+				0234C29D1510F33B00284D25 /* license.txt */,
+				0234C29E1510F33B00284D25 /* readme.md */,
+			);
+			path = DCRoundSwitch;
+			sourceTree = "<group>";
+		};
 		E624EA9914D6AC7700F3A968 /* iCommand */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,182 +567,10 @@
 			path = Graphic;
 			sourceTree = "<group>";
 		};
-		E624EB5814D6D19200F3A968 /* MUKit */ = {
-			isa = PBXGroup;
-			children = (
-				E624EBE314D6D2B200F3A968 /* ThirdParty */,
-				E624EB5914D6D19200F3A968 /* MUControls */,
-				E624EBA414D6D19200F3A968 /* MUCore */,
-				E624EBB014D6D19200F3A968 /* MUExtentions */,
-			);
-			name = MUKit;
-			path = ../MUKit;
-			sourceTree = "<group>";
-		};
-		E624EB5914D6D19200F3A968 /* MUControls */ = {
-			isa = PBXGroup;
-			children = (
-				E679757614D999260054A31C /* ViewControllers */,
-				E624EB5A14D6D19200F3A968 /* InputFields */,
-				E624EB6714D6D19200F3A968 /* MUKeyboardAvoiding */,
-				E624EB8714D6D19200F3A968 /* MUTableViewCell2Half */,
-				E624EB6314D6D19200F3A968 /* MUAlertWithTextField.h */,
-				E624EB6414D6D19200F3A968 /* MUAlertWithTextField.m */,
-				E624EB6514D6D19200F3A968 /* MUAutoresizeButton.h */,
-				E624EB6614D6D19200F3A968 /* MUAutoresizeButton.m */,
-				E624EB7B14D6D19200F3A968 /* MUProgressView.h */,
-				E624EB7C14D6D19200F3A968 /* MUProgressView.m */,
-				E624EB7D14D6D19200F3A968 /* MUSearchBar.h */,
-				E624EB7E14D6D19200F3A968 /* MUSearchBar.m */,
-				E624EB7F14D6D19200F3A968 /* MUSegmentedControl.h */,
-				E624EB8014D6D19200F3A968 /* MUSegmentedControl.m */,
-				E624EB8114D6D19200F3A968 /* MUSpinneredView.h */,
-				E624EB8214D6D19200F3A968 /* MUSpinneredView.m */,
-				E624EB8314D6D19200F3A968 /* MUStackedView.h */,
-				E624EB8414D6D19200F3A968 /* MUStackedView.m */,
-				E624EB8514D6D19200F3A968 /* MUTabBar.h */,
-				E624EB8614D6D19200F3A968 /* MUTabBar.m */,
-				E624EBA214D6D19200F3A968 /* MUToolbar.h */,
-				E624EBA314D6D19200F3A968 /* MUToolbar.m */,
-				0234C12B1510BF8000284D25 /* MUImageViewTapable.h */,
-				0234C12C1510BF8000284D25 /* MUImageViewTapable.m */,
-			);
-			path = MUControls;
-			sourceTree = "<group>";
-		};
-		E624EB5A14D6D19200F3A968 /* InputFields */ = {
-			isa = PBXGroup;
-			children = (
-				E624EB5B14D6D19200F3A968 /* MUTextField.h */,
-				E624EB5C14D6D19200F3A968 /* MUTextField.m */,
-				E624EB5D14D6D19200F3A968 /* MUTextFieldPadding.h */,
-				E624EB5E14D6D19200F3A968 /* MUTextFieldPadding.m */,
-				E624EB5F14D6D19200F3A968 /* MUTextView.h */,
-				E624EB6014D6D19200F3A968 /* MUTextView.m */,
-				E624EB6114D6D19200F3A968 /* MUTextViewAutosize.h */,
-				E624EB6214D6D19200F3A968 /* MUTextViewAutosize.m */,
-			);
-			path = InputFields;
-			sourceTree = "<group>";
-		};
-		E624EB6714D6D19200F3A968 /* MUKeyboardAvoiding */ = {
-			isa = PBXGroup;
-			children = (
-				E624EB6814D6D19200F3A968 /* MUKeyboardAvoidingScrollView.h */,
-				E624EB6914D6D19200F3A968 /* MUKeyboardAvoidingScrollView.m */,
-				E624EB6A14D6D19200F3A968 /* MUKeyboardAvoidingTableView.h */,
-				E624EB6B14D6D19200F3A968 /* MUKeyboardAvoidingTableView.m */,
-			);
-			path = MUKeyboardAvoiding;
-			sourceTree = "<group>";
-		};
-		E624EB8714D6D19200F3A968 /* MUTableViewCell2Half */ = {
-			isa = PBXGroup;
-			children = (
-				E624EB9E14D6D19200F3A968 /* MUHalfCellView.h */,
-				E624EB9F14D6D19200F3A968 /* MUHalfCellView.m */,
-				E624EBA014D6D19200F3A968 /* MUTableViewCell2Half.h */,
-				E624EBA114D6D19200F3A968 /* MUTableViewCell2Half.m */,
-				E624EB8814D6D19200F3A968 /* MUCellLb1Img1.h */,
-				E624EB8914D6D19200F3A968 /* MUCellLb1Img1.m */,
-				E624EB8A14D6D19200F3A968 /* MUCellLb1Lb1.h */,
-				E624EB8B14D6D19200F3A968 /* MUCellLb1Lb1.m */,
-				E624EB8C14D6D19200F3A968 /* MUCellLb1RoundSw1.h */,
-				E624EB8D14D6D19200F3A968 /* MUCellLb1RoundSw1.m */,
-				E624EB8E14D6D19200F3A968 /* MUCellLb1Sw1.h */,
-				E624EB8F14D6D19200F3A968 /* MUCellLb1Sw1.m */,
-				E624EB9014D6D19200F3A968 /* MUCellLb1Tf1.h */,
-				E624EB9114D6D19200F3A968 /* MUCellLb1Tf1.m */,
-				E624EB9214D6D19200F3A968 /* MUCellLb2Lb1.h */,
-				E624EB9314D6D19200F3A968 /* MUCellLb2Lb1.m */,
-				E624EB9414D6D19200F3A968 /* MUCellLb2WithFullWidthLb1.h */,
-				E624EB9514D6D19200F3A968 /* MUCellLb2WithFullWidthLb1.m */,
-				E624EB9614D6D19200F3A968 /* MUCellLb3Lb1.h */,
-				E624EB9714D6D19200F3A968 /* MUCellLb3Lb1.m */,
-				E624EB9814D6D19200F3A968 /* MUCellLb3WithFullWidth2Lb1.h */,
-				E624EB9914D6D19200F3A968 /* MUCellLb3WithFullWidth2Lb1.m */,
-				E624EB9A14D6D19200F3A968 /* MUCellLb3WithFullWidthLb1.h */,
-				E624EB9B14D6D19200F3A968 /* MUCellLb3WithFullWidthLb1.m */,
-				E624EB9C14D6D19200F3A968 /* MUCellLbTextView.h */,
-				E624EB9D14D6D19200F3A968 /* MUCellLbTextView.m */,
-			);
-			path = MUTableViewCell2Half;
-			sourceTree = "<group>";
-		};
-		E624EBA414D6D19200F3A968 /* MUCore */ = {
-			isa = PBXGroup;
-			children = (
-				E624EBA514D6D19200F3A968 /* MUKitDefines.h */,
-				E624EBA614D6D19200F3A968 /* MUPair.h */,
-				E624EBA714D6D19200F3A968 /* MUPair.m */,
-				E624EBA814D6D19200F3A968 /* MUTitledID.h */,
-				E624EBA914D6D19200F3A968 /* MUTitledID.m */,
-				E624EBAA14D6D19200F3A968 /* MUValidationGroup.h */,
-				E624EBAB14D6D19200F3A968 /* MUValidationGroup.m */,
-				E624EBAC14D6D19200F3A968 /* MUValidator.h */,
-				E624EBAD14D6D19200F3A968 /* MUValidator.m */,
-				E624EBAE14D6D19200F3A968 /* MUWeakRef.h */,
-				E624EBAF14D6D19200F3A968 /* MUWeakRef.m */,
-				E6992C3514DD767D008AAF2D /* MUPhoneNumberFormatter.h */,
-				E6992C3614DD767D008AAF2D /* MUPhoneNumberFormatter.m */,
-				E6992C4E14DE641F008AAF2D /* MUCreditCardNumberFormatter.h */,
-				E6992C4F14DE641F008AAF2D /* MUCreditCardNumberFormatter.m */,
-				0234C12F1510C25D00284D25 /* MUTargetAction.h */,
-				0234C1301510C25E00284D25 /* MUTargetAction.m */,
-			);
-			path = MUCore;
-			sourceTree = "<group>";
-		};
-		E624EBB014D6D19200F3A968 /* MUExtentions */ = {
-			isa = PBXGroup;
-			children = (
-				E624EBB114D6D19200F3A968 /* MUCocoaExtentions.h */,
-				E624EBB214D6D19200F3A968 /* MUCocoaExtentions.m */,
-				E624EBB314D6D19200F3A968 /* NSString+Base64Encoding.h */,
-				E624EBB414D6D19200F3A968 /* NSString+Base64Encoding.m */,
-			);
-			path = MUExtentions;
-			sourceTree = "<group>";
-		};
-		E624EBE314D6D2B200F3A968 /* ThirdParty */ = {
-			isa = PBXGroup;
-			children = (
-				E624EBE814D6D45200F3A968 /* DCRoundSwitch */,
-				E624EBE414D6D2B200F3A968 /* DateExtentions */,
-			);
-			path = ThirdParty;
-			sourceTree = "<group>";
-		};
-		E624EBE414D6D2B200F3A968 /* DateExtentions */ = {
-			isa = PBXGroup;
-			children = (
-				E624EBE514D6D2B200F3A968 /* NSDate-Utilities.h */,
-				E624EBE614D6D2B200F3A968 /* NSDate-Utilities.m */,
-			);
-			path = DateExtentions;
-			sourceTree = "<group>";
-		};
-		E624EBE814D6D45200F3A968 /* DCRoundSwitch */ = {
-			isa = PBXGroup;
-			children = (
-				E624EBE914D6D45200F3A968 /* DCRoundSwitch.h */,
-				E624EBEA14D6D45200F3A968 /* DCRoundSwitch.m */,
-				E624EBEB14D6D45200F3A968 /* DCRoundSwitchKnobLayer.h */,
-				E624EBEC14D6D45200F3A968 /* DCRoundSwitchKnobLayer.m */,
-				E624EBED14D6D45200F3A968 /* DCRoundSwitchOutlineLayer.h */,
-				E624EBEE14D6D45200F3A968 /* DCRoundSwitchOutlineLayer.m */,
-				E624EBEF14D6D45200F3A968 /* DCRoundSwitchToggleLayer.h */,
-				E624EBF014D6D45200F3A968 /* DCRoundSwitchToggleLayer.m */,
-				E624EBF114D6D45200F3A968 /* license.txt */,
-				E624EBF214D6D45200F3A968 /* readme.md */,
-			);
-			path = DCRoundSwitch;
-			sourceTree = "<group>";
-		};
 		E67380BD14D6824600B35246 = {
 			isa = PBXGroup;
 			children = (
-				E624EB5814D6D19200F3A968 /* MUKit */,
+				0234C2121510F33B00284D25 /* MUKit */,
 				E67380D214D6824600B35246 /* MUKitMaster */,
 				E624EAAE14D6C0E700F3A968 /* Resourse */,
 				E67380CB14D6824600B35246 /* Frameworks */,
@@ -552,23 +669,6 @@
 			path = HalfCellTest;
 			sourceTree = "<group>";
 		};
-		E679757614D999260054A31C /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				E679757B14D999270054A31C /* MUBaseViewController.h */,
-				E679757C14D999270054A31C /* MUBaseViewController.m */,
-				E679757914D999270054A31C /* MUBaseTableController.h */,
-				E679757A14D999270054A31C /* MUBaseTableController.m */,
-				E679757714D999270054A31C /* MUBaseScrollerController.h */,
-				E679757814D999270054A31C /* MUBaseScrollerController.m */,
-				E679757D14D999270054A31C /* MUVeraetyCellsTableControllerReadonly.h */,
-				E679757E14D999270054A31C /* MUVeraetyCellsTableControllerReadonly.m */,
-				E679757F14D999270054A31C /* MUVeraetyCellsTableControllerWritable.h */,
-				E679758014D999270054A31C /* MUVeraetyCellsTableControllerWritable.m */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -627,9 +727,12 @@
 				E624EAA614D6AD0E00F3A968 /* MUKeyboardAvoidingTableController.xib in Resources */,
 				E624EAB214D6C0E700F3A968 /* warning_icon.png in Resources */,
 				E624EAB314D6C0E700F3A968 /* warning_icon@2x.png in Resources */,
-				E624EBF714D6D45200F3A968 /* license.txt in Resources */,
-				E624EBF814D6D45200F3A968 /* readme.md in Resources */,
 				E679757114D97C610054A31C /* HalfCellTestController.xib in Resources */,
+				0234C29F1510F33B00284D25 /* .gitignore in Resources */,
+				0234C2D61510F33B00284D25 /* Podfile in Resources */,
+				0234C2D71510F33B00284D25 /* README in Resources */,
+				0234C2DD1510F33B00284D25 /* license.txt in Resources */,
+				0234C2DE1510F33B00284D25 /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,56 +766,66 @@
 				E673819914D6A0AA00B35246 /* MURootControllerIPhone.m in Sources */,
 				E624EAA014D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.m in Sources */,
 				E624EAA514D6AD0E00F3A968 /* MUKeyboardAvoidingTableController.m in Sources */,
-				E624EBB814D6D19200F3A968 /* MUTextField.m in Sources */,
-				E624EBB914D6D19200F3A968 /* MUTextFieldPadding.m in Sources */,
-				E624EBBA14D6D19200F3A968 /* MUTextView.m in Sources */,
-				E624EBBB14D6D19200F3A968 /* MUTextViewAutosize.m in Sources */,
-				E624EBBC14D6D19200F3A968 /* MUAlertWithTextField.m in Sources */,
-				E624EBBD14D6D19200F3A968 /* MUAutoresizeButton.m in Sources */,
-				E624EBBE14D6D19200F3A968 /* MUKeyboardAvoidingScrollView.m in Sources */,
-				E624EBBF14D6D19200F3A968 /* MUKeyboardAvoidingTableView.m in Sources */,
-				E624EBC714D6D19200F3A968 /* MUProgressView.m in Sources */,
-				E624EBC814D6D19200F3A968 /* MUSearchBar.m in Sources */,
-				E624EBC914D6D19200F3A968 /* MUSegmentedControl.m in Sources */,
-				E624EBCA14D6D19200F3A968 /* MUSpinneredView.m in Sources */,
-				E624EBCB14D6D19200F3A968 /* MUStackedView.m in Sources */,
-				E624EBCC14D6D19200F3A968 /* MUTabBar.m in Sources */,
-				E624EBCD14D6D19200F3A968 /* MUCellLb1Img1.m in Sources */,
-				E624EBCE14D6D19200F3A968 /* MUCellLb1Lb1.m in Sources */,
-				E624EBCF14D6D19200F3A968 /* MUCellLb1RoundSw1.m in Sources */,
-				E624EBD014D6D19200F3A968 /* MUCellLb1Sw1.m in Sources */,
-				E624EBD114D6D19200F3A968 /* MUCellLb1Tf1.m in Sources */,
-				E624EBD214D6D19200F3A968 /* MUCellLb2Lb1.m in Sources */,
-				E624EBD314D6D19200F3A968 /* MUCellLb2WithFullWidthLb1.m in Sources */,
-				E624EBD414D6D19200F3A968 /* MUCellLb3Lb1.m in Sources */,
-				E624EBD514D6D19200F3A968 /* MUCellLb3WithFullWidth2Lb1.m in Sources */,
-				E624EBD614D6D19200F3A968 /* MUCellLb3WithFullWidthLb1.m in Sources */,
-				E624EBD714D6D19200F3A968 /* MUCellLbTextView.m in Sources */,
-				E624EBD814D6D19200F3A968 /* MUHalfCellView.m in Sources */,
-				E624EBD914D6D19200F3A968 /* MUTableViewCell2Half.m in Sources */,
-				E624EBDA14D6D19200F3A968 /* MUToolbar.m in Sources */,
-				E624EBDB14D6D19200F3A968 /* MUPair.m in Sources */,
-				E624EBDC14D6D19200F3A968 /* MUTitledID.m in Sources */,
-				E624EBDD14D6D19200F3A968 /* MUValidationGroup.m in Sources */,
-				E624EBDE14D6D19200F3A968 /* MUValidator.m in Sources */,
-				E624EBDF14D6D19200F3A968 /* MUWeakRef.m in Sources */,
-				E624EBE014D6D19200F3A968 /* MUCocoaExtentions.m in Sources */,
-				E624EBE114D6D19200F3A968 /* NSString+Base64Encoding.m in Sources */,
-				E624EBE714D6D2B200F3A968 /* NSDate-Utilities.m in Sources */,
-				E624EBF314D6D45200F3A968 /* DCRoundSwitch.m in Sources */,
-				E624EBF414D6D45200F3A968 /* DCRoundSwitchKnobLayer.m in Sources */,
-				E624EBF514D6D45200F3A968 /* DCRoundSwitchOutlineLayer.m in Sources */,
-				E624EBF614D6D45200F3A968 /* DCRoundSwitchToggleLayer.m in Sources */,
 				E679757014D97C610054A31C /* HalfCellTestController.m in Sources */,
-				E679758114D999270054A31C /* MUBaseScrollerController.m in Sources */,
-				E679758214D999270054A31C /* MUBaseTableController.m in Sources */,
-				E679758314D999270054A31C /* MUBaseViewController.m in Sources */,
-				E679758414D999270054A31C /* MUVeraetyCellsTableControllerReadonly.m in Sources */,
-				E679758514D999270054A31C /* MUVeraetyCellsTableControllerWritable.m in Sources */,
-				E6992C3714DD767D008AAF2D /* MUPhoneNumberFormatter.m in Sources */,
-				E6992C5014DE6420008AAF2D /* MUCreditCardNumberFormatter.m in Sources */,
-				0234C12D1510BF8000284D25 /* MUImageViewTapable.m in Sources */,
-				0234C1311510C25E00284D25 /* MUTargetAction.m in Sources */,
+				0234C2A01510F33B00284D25 /* MUTextField.m in Sources */,
+				0234C2A11510F33B00284D25 /* MUTextFieldPadding.m in Sources */,
+				0234C2A21510F33B00284D25 /* MUTextView.m in Sources */,
+				0234C2A31510F33B00284D25 /* MUTextViewAutosize.m in Sources */,
+				0234C2A41510F33B00284D25 /* MUAlertWithTextField.m in Sources */,
+				0234C2A51510F33B00284D25 /* MUAutoresizeButton.m in Sources */,
+				0234C2A61510F33B00284D25 /* MUImageViewTapable.m in Sources */,
+				0234C2A71510F33B00284D25 /* MUKeyboardAvoidingScrollView.m in Sources */,
+				0234C2A81510F33B00284D25 /* MUKeyboardAvoidingTableView.m in Sources */,
+				0234C2A91510F33B00284D25 /* MUProgressView.m in Sources */,
+				0234C2AA1510F33B00284D25 /* MUSearchBar.m in Sources */,
+				0234C2AB1510F33B00284D25 /* MUSegmentedControl.m in Sources */,
+				0234C2AC1510F33B00284D25 /* MUSpinneredView.m in Sources */,
+				0234C2AD1510F33B00284D25 /* MUStackedView.m in Sources */,
+				0234C2AE1510F33B00284D25 /* MUTabBar.m in Sources */,
+				0234C2AF1510F33B00284D25 /* MUCellLb1Img1.m in Sources */,
+				0234C2B01510F33B00284D25 /* MUCellLb1Lb1.m in Sources */,
+				0234C2B11510F33B00284D25 /* MUCellLb1RoundSw1.m in Sources */,
+				0234C2B21510F33B00284D25 /* MUCellLb1Sw1.m in Sources */,
+				0234C2B31510F33B00284D25 /* MUCellLb1Tf1.m in Sources */,
+				0234C2B41510F33B00284D25 /* MUCellLb2Lb1.m in Sources */,
+				0234C2B51510F33B00284D25 /* MUCellLb2WithFullWidthLb1.m in Sources */,
+				0234C2B61510F33B00284D25 /* MUCellLb3Lb1.m in Sources */,
+				0234C2B71510F33B00284D25 /* MUCellLb3WithFullWidth2Lb1.m in Sources */,
+				0234C2B81510F33B00284D25 /* MUCellLb3WithFullWidthLb1.m in Sources */,
+				0234C2B91510F33B00284D25 /* MUCellLbTextView.m in Sources */,
+				0234C2BA1510F33B00284D25 /* MUHalfCellView.m in Sources */,
+				0234C2BB1510F33B00284D25 /* MUTableViewCell2Half.m in Sources */,
+				0234C2BC1510F33B00284D25 /* MUToolbar.m in Sources */,
+				0234C2BD1510F33B00284D25 /* MUBaseScrollerController.m in Sources */,
+				0234C2BE1510F33B00284D25 /* MUBaseTableController.m in Sources */,
+				0234C2BF1510F33B00284D25 /* MUBaseViewController.m in Sources */,
+				0234C2C01510F33B00284D25 /* MUVeraetyCellsTableControllerReadonly.m in Sources */,
+				0234C2C11510F33B00284D25 /* MUVeraetyCellsTableControllerWritable.m in Sources */,
+				0234C2C21510F33B00284D25 /* MUCreditCardNumberFormatter.m in Sources */,
+				0234C2C31510F33B00284D25 /* MUPair.m in Sources */,
+				0234C2C41510F33B00284D25 /* MUPhoneNumberFormatter.m in Sources */,
+				0234C2C51510F33B00284D25 /* MUTargetAction.m in Sources */,
+				0234C2C61510F33B00284D25 /* MUTitledID.m in Sources */,
+				0234C2C71510F33B00284D25 /* MUValidationGroup.m in Sources */,
+				0234C2C81510F33B00284D25 /* MUValidator.m in Sources */,
+				0234C2C91510F33B00284D25 /* MUWeakRef.m in Sources */,
+				0234C2CA1510F33B00284D25 /* MUCocoaExtentions.m in Sources */,
+				0234C2CB1510F33B00284D25 /* NSString+Base64Encoding.m in Sources */,
+				0234C2CC1510F33B00284D25 /* MUGateway.m in Sources */,
+				0234C2CD1510F33B00284D25 /* MUGatewayResponse.m in Sources */,
+				0234C2CE1510F33B00284D25 /* MUGatewayTask.m in Sources */,
+				0234C2CF1510F33B00284D25 /* MUHTTPClient.m in Sources */,
+				0234C2D01510F33B00284D25 /* MULogConsumer.m in Sources */,
+				0234C2D11510F33B00284D25 /* MULogConsumerFile.m in Sources */,
+				0234C2D21510F33B00284D25 /* MULogManager.m in Sources */,
+				0234C2D31510F33B00284D25 /* MULogMessage.m in Sources */,
+				0234C2D41510F33B00284D25 /* MULogFormatterPlainText.m in Sources */,
+				0234C2D51510F33B00284D25 /* MULogger.m in Sources */,
+				0234C2D81510F33B00284D25 /* NSDate-Utilities.m in Sources */,
+				0234C2D91510F33B00284D25 /* DCRoundSwitch.m in Sources */,
+				0234C2DA1510F33B00284D25 /* DCRoundSwitchKnobLayer.m in Sources */,
+				0234C2DB1510F33B00284D25 /* DCRoundSwitchOutlineLayer.m in Sources */,
+				0234C2DC1510F33B00284D25 /* DCRoundSwitchToggleLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
