@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0234C12D1510BF8000284D25 /* MUImageViewTapable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C12C1510BF8000284D25 /* MUImageViewTapable.m */; };
+		0234C1311510C25E00284D25 /* MUTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C1301510C25E00284D25 /* MUTargetAction.m */; };
+		07A773576EC1458082F502ED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DEC245B1C4F3CA17A65C2 /* libPods.a */; };
 		E624EAA014D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EA9E14D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.m */; };
 		E624EAA114D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E624EA9F14D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.xib */; };
 		E624EAA514D6AD0E00F3A968 /* MUKeyboardAvoidingTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = E624EAA314D6AD0E00F3A968 /* MUKeyboardAvoidingTableController.m */; };
@@ -78,6 +81,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0234C12B1510BF8000284D25 /* MUImageViewTapable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUImageViewTapable.h; sourceTree = "<group>"; };
+		0234C12C1510BF8000284D25 /* MUImageViewTapable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUImageViewTapable.m; sourceTree = "<group>"; };
+		0234C12F1510C25D00284D25 /* MUTargetAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTargetAction.h; sourceTree = "<group>"; };
+		0234C1301510C25E00284D25 /* MUTargetAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTargetAction.m; sourceTree = "<group>"; };
+		9B9DEC245B1C4F3CA17A65C2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E624EA9D14D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MUKeyboardAvoidingScrollController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		E624EA9E14D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MUKeyboardAvoidingScrollController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		E624EA9F14D6ACFA00F3A968 /* MUKeyboardAvoidingScrollController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MUKeyboardAvoidingScrollController.xib; sourceTree = "<group>"; };
@@ -203,6 +211,7 @@
 		E6992C3614DD767D008AAF2D /* MUPhoneNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPhoneNumberFormatter.m; sourceTree = "<group>"; };
 		E6992C4E14DE641F008AAF2D /* MUCreditCardNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MUCreditCardNumberFormatter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		E6992C4F14DE641F008AAF2D /* MUCreditCardNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MUCreditCardNumberFormatter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		FDF2C11A05A042068BFC06D8 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +223,7 @@
 				E67380CD14D6824600B35246 /* UIKit.framework in Frameworks */,
 				E67380CF14D6824600B35246 /* Foundation.framework in Frameworks */,
 				E67380D114D6824600B35246 /* CoreGraphics.framework in Frameworks */,
+				07A773576EC1458082F502ED /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +315,8 @@
 				E624EB8614D6D19200F3A968 /* MUTabBar.m */,
 				E624EBA214D6D19200F3A968 /* MUToolbar.h */,
 				E624EBA314D6D19200F3A968 /* MUToolbar.m */,
+				0234C12B1510BF8000284D25 /* MUImageViewTapable.h */,
+				0234C12C1510BF8000284D25 /* MUImageViewTapable.m */,
 			);
 			path = MUControls;
 			sourceTree = "<group>";
@@ -386,6 +398,8 @@
 				E6992C3614DD767D008AAF2D /* MUPhoneNumberFormatter.m */,
 				E6992C4E14DE641F008AAF2D /* MUCreditCardNumberFormatter.h */,
 				E6992C4F14DE641F008AAF2D /* MUCreditCardNumberFormatter.m */,
+				0234C12F1510C25D00284D25 /* MUTargetAction.h */,
+				0234C1301510C25E00284D25 /* MUTargetAction.m */,
 			);
 			path = MUCore;
 			sourceTree = "<group>";
@@ -444,6 +458,7 @@
 				E624EAAE14D6C0E700F3A968 /* Resourse */,
 				E67380CB14D6824600B35246 /* Frameworks */,
 				E67380C914D6824600B35246 /* Products */,
+				FDF2C11A05A042068BFC06D8 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -462,6 +477,7 @@
 				E67380CC14D6824600B35246 /* UIKit.framework */,
 				E67380CE14D6824600B35246 /* Foundation.framework */,
 				E67380D014D6824600B35246 /* CoreGraphics.framework */,
+				9B9DEC245B1C4F3CA17A65C2 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -563,6 +579,7 @@
 				E67380C414D6824600B35246 /* Sources */,
 				E67380C514D6824600B35246 /* Frameworks */,
 				E67380C614D6824600B35246 /* Resources */,
+				08A49649B8754168A95323F4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -617,6 +634,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08A49649B8754168A95323F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E67380C414D6824600B35246 /* Sources */ = {
@@ -677,6 +711,8 @@
 				E679758514D999270054A31C /* MUVeraetyCellsTableControllerWritable.m in Sources */,
 				E6992C3714DD767D008AAF2D /* MUPhoneNumberFormatter.m in Sources */,
 				E6992C5014DE6420008AAF2D /* MUCreditCardNumberFormatter.m in Sources */,
+				0234C12D1510BF8000284D25 /* MUImageViewTapable.m in Sources */,
+				0234C1311510C25E00284D25 /* MUTargetAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -745,26 +781,34 @@
 		};
 		E67380EA14D6824700B35246 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF2C11A05A042068BFC06D8 /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MUKitMaster/MUKitMaster-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "MUKitMaster/MUKitMaster-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		E67380EB14D6824700B35246 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF2C11A05A042068BFC06D8 /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MUKitMaster/MUKitMaster-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "MUKitMaster/MUKitMaster-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

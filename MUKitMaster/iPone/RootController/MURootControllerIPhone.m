@@ -10,8 +10,11 @@
 #import "MUKeyboardAvoidingScrollController.h"
 #import "MUKeyboardAvoidingTableController.h"
 #import "HalfCellTestController.h"
+#import "MUKitDefines.h"
+
 
 @implementation MURootControllerIPhone
+@synthesize ivTapable;
 
 //==============================================================================
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -43,11 +46,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [ivTapable addTarget:self action:@selector(imageTapped:)];
+    NSURL* imgURL = [NSURL URLWithString:@"http://d1xzuxjlafny7l.cloudfront.net/wp-content/uploads/2011/03/MapsSmall.jpg"];
+    [ivTapable setImageWithURL:imgURL];
 }
 
 //==============================================================================
 - (void)viewDidUnload
 {
+    [self setIvTapable:nil];
     [super viewDidUnload];
 }
 
@@ -77,6 +85,20 @@
 {
     HalfCellTestController *vc = [[HalfCellTestController new] autorelease];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+//==============================================================================
+- (void)dealloc
+{
+    [ivTapable release];
+
+    [super dealloc];
+}
+
+//==============================================================================
+- (void) imageTapped:(UIImage*)anImage
+{
+    MUShowSimpleAlert(@"Image Tapable", @"image taped!");
 }
 
 @end
